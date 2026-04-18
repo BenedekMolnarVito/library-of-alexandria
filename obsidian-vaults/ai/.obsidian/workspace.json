@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "edf26fe6523285d2",
+        "id": "54ee5b17fc4f0c5a",
         "type": "tabs",
         "children": [
           {
-            "id": "28d6da0fde6997e3",
+            "id": "70f6492d94f6ea60",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,13 +176,35 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "28d6da0fde6997e3",
+  "active": "70f6492d94f6ea60",
   "lastOpenFiles": [
+    "raw/Claude Code + Karpathy's Obsidian = New Meta.md",
+    "raw/Building Claude Code with Boris Cherny.md",
+    "raw/Lessons from building Vercel v0 and the d0 agent - The Pragmatic Summit.md",
+    "raw/Uber Leading engineering through an agentic shift - The Pragmatic Summit.md",
+    "raw/From IDEs to AI Agents with Steve Yegge.md",
+    "raw/Product-minded engineers in an AI-native world.md",
+    "raw/Chip Huyen Building when it feels like there's nothing left to build - The Pragmatic Summit.md",
+    "raw/DHH’s new way of writing code.md",
+    "raw/Claude as a Dungeon Master -Let's check it out 1.md",
+    "raw/DHH’s new way of writing code 1.md",
+    "raw/Claude as a Dungeon Master -Let's check it out.md",
+    "raw/Master 95% of Claude Code Skills in 28 Minutes.md",
+    "raw/Anthropic And OpenAI Are Fighting Over Your Memory. You're Going To Lose.md",
+    "raw/I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.md",
+    "raw/Openclaw + Gemma 4 = FREE & Private AI.md",
+    "Untitled.md",
+    "raw/Claude Code + Paperclip Just Destroyed OpenClaw.md",
+    "raw/There Are Only 5 Safe Places to Build in AI Right Now. Are You in One.md",
+    "raw/How to Build Claude Agent Teams Better Than 99% of People.md",
+    "raw/A Polymarket Bot Made $438,000 In 30 Days. Your Industry Is Next. Here's What To Do About It.md",
+    "raw/Claude Just Told Us to Stop Using Their Best Model.md",
+    "raw/Claude Code Skills Just Got Even Better.md",
+    "raw/This Free AI Just Replaced My $100Month Claude Subscription  GLM 5.1.md",
+    "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
+    "raw/I Built Self-Evolving Claude Code Memory w Karpathy's LLM Knowledge Bases.md",
+    "raw/Your AI Is 50x Faster. You're Getting 2x. You're Fixing the Wrong Thing.md",
     "Névtelen.canvas",
-    "Üdvözöljük.md",
-    "wiki/overview.md",
-    "wiki/index.md",
-    "wiki/log.md",
     "wiki/sources",
     "wiki/entities",
     "wiki/concepts",
@@ -190,7 +212,6 @@
     "wiki",
     "raw/assets",
     "raw",
-    "Clippings/I Turned Andrej Karpathy’s Autoresearch Into a Universal Skill.md",
     "Clippings"
   ]
 }
