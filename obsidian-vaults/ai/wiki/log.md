@@ -64,3 +64,21 @@ Ran full lint pass after bulk ingest. Findings and fixes applied:
 - ✅ Frontmatter structure: all sampled pages have required fields (title, type, domain, tags, created, updated)
 
 Pages touched: [[wiki/index]], [[wiki/overview]], [[wiki/log]]
+
+---
+
+## [2026-04-18] query | Five Transformative Insights in AI
+
+User asked: "What are the most transformative insights in the AI domain now?"
+
+Synthesized query from the 63-source corpus, identifying five core insights reshaping AI infrastructure, economics, and knowledge management:
+
+1. **Tool Call Latency** — 50x model speed improvement yields only 2–3x productivity because 90% of agent time is spent on tool calls, not inference
+2. **Local Hard Takeoff** — Gemma 4 and MoE models crossed the viability threshold; local inference now frontier-competitive on most tasks at zero marginal cost
+3. **LLM Wiki Compounding** — Plain markdown structured by AI compounds faster than vector RAG; a Japanese firm's markdown beat a $50M vector database
+4. **SaaS Disruption** — $285B middleware market exposed; agents can replicate workflows that specialized software used to manage
+5. **Intelligence Arbitrage** — Route tasks to the cheapest model that handles them reliably; capability map becomes institutional IP
+
+Result: Saved as [[wiki/analyses/transformative-insights-2026]].
+
+Pages touched: [[wiki/index]], [[wiki/analyses/transformative-insights-2026]]

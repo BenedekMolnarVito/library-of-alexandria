@@ -217,4 +217,4 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 
 ## Analyses
 
-*No analyses yet. Ask questions and save valuable answers as analysis pages.*
+- [[wiki/analyses/transformative-insights-2026]] — Five core insights reshaping AI: tool-call bottleneck, local model viability, LLM wiki knowledge compounding, SaaS disruption, intelligence arbitrage (2026-04)
