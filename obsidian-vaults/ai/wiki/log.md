@@ -25,9 +25,9 @@ Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/overview]]
 
 ---
 
-## [2026-04-28] ingest | Bulk Ingest — 64 Raw Sources
+## [2026-04-18] ingest | Bulk Ingest — 63 Raw Sources
 
-Processed all 64 web-clipped sources from `raw/` in a single bulk ingest operation. Created 153 new wiki pages across sources, entities, and concepts. Updated index.md and overview.md.
+Processed all 63 web-clipped sources from `raw/` in a single bulk ingest operation. Created 153 new wiki pages across sources, entities, and concepts (64 source pages, 49 entity pages, 40 concept pages). Updated index.md and overview.md.
 
 **Source pages created (64)**: All sources from `wiki/sources/` — see [[wiki/index]] for full list organized by cluster.
 
@@ -43,18 +43,24 @@ Processed all 64 web-clipped sources from `raw/` in a single bulk ingest operati
 
 ---
 
-Created all entity pages for the AI domain wiki in a single batch operation. Entities cover the major people, organizations, models, and products documented across the source corpus.
+## [2026-04-18] lint | Post-Ingest Health Check
 
-**People created (19)**:
-[[wiki/entities/andrej-karpathy]], [[wiki/entities/boris-cherny]], [[wiki/entities/nate-b-jones]], [[wiki/entities/nate-herk]], [[wiki/entities/chip-huyen]], [[wiki/entities/steve-yegge]], [[wiki/entities/dhh]], [[wiki/entities/gergely-orosz]], [[wiki/entities/cole-medin]], [[wiki/entities/balu-kosuri]], [[wiki/entities/forrest-chang]], [[wiki/entities/networkchuck]], [[wiki/entities/malte-ubl]], [[wiki/entities/alex-dunlop]], [[wiki/entities/tobi-lutke]], [[wiki/entities/manjunath-janardhan]], [[wiki/entities/daniel-vaughan]], [[wiki/entities/nick-saraev]], [[wiki/entities/danish-sofi]]
+Ran full lint pass after bulk ingest. Findings and fixes applied:
 
-**Organizations created (12)**:
-[[wiki/entities/anthropic]], [[wiki/entities/openai]], [[wiki/entities/google-deepmind]], [[wiki/entities/vercel]], [[wiki/entities/uber]], [[wiki/entities/zhipuai]], [[wiki/entities/stepfun]], [[wiki/entities/langchain]], [[wiki/entities/37signals]], [[wiki/entities/nous-research]], [[wiki/entities/datalab]], [[wiki/entities/exo-labs]]
+**Issues fixed (3)**:
+- Corrected malformed wikilink in [[wiki/index]]: `five-safe-places-to-build-in-ai.md|alias` → `five-safe-places-to-build-in-ai`
+- Corrected bulk ingest log entry date: `2026-04-28` → `2026-04-18` (all ingest activity happened today)
+- Corrected `updated` frontmatter in [[wiki/index]] and [[wiki/overview]]: `2026-04-28` → `2026-04-18`
+- Removed duplicate entity-creation fragment that was appended after the main bulk ingest entry in this log
 
-**Models created (5)**:
-[[wiki/entities/claude-model-family]], [[wiki/entities/gemma-4]], [[wiki/entities/glm-5-1]], [[wiki/entities/step-3-5-flash]], [[wiki/entities/qwen3]]
+**Issues flagged (2, not auto-fixed)**:
+- 153 individual wiki pages (64 sources, 49 entities, 40 concepts) have `created/updated: 2026-04-28` in their frontmatter — should be `2026-04-18`. These are functionally correct but dated 10 days ahead. A mass find-and-replace of `2026-04-28` → `2026-04-18` across `wiki/` would fix this if desired.
+- Raw source count: `raw/` contains 63 `.md` files; log entry originally said "64 raw sources". Corrected to 63 in this log. The wiki has 64 source pages (one source page may cover content attributed to a raw file that has since been renamed or merged).
 
-**Products created (13)**:
-[[wiki/entities/claude-code]], [[wiki/entities/openclaw]], [[wiki/entities/paperclip]], [[wiki/entities/ollama]], [[wiki/entities/langgraph]], [[wiki/entities/obsidian]], [[wiki/entities/cursor]], [[wiki/entities/codex-cli]], [[wiki/entities/exo]], [[wiki/entities/vllm]], [[wiki/entities/llama-cpp]], [[wiki/entities/mcp]], [[wiki/entities/cline]]
+**Health check results**:
+- ✅ No orphan pages detected (all pages reachable via [[wiki/index]])
+- ✅ No missing linked pages (all wikilinks resolve to existing files)
+- ✅ Index completeness: 64 sources, 49 entities, 40 concepts — all directories match index
+- ✅ Frontmatter structure: all sampled pages have required fields (title, type, domain, tags, created, updated)
 
-Updated: [[wiki/index]]
+Pages touched: [[wiki/index]], [[wiki/overview]], [[wiki/log]]

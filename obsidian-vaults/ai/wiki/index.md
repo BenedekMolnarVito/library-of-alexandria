@@ -3,7 +3,7 @@ title: "AI Wiki Index"
 type: index
 domain: ai
 created: 2026-04-18
-updated: 2026-04-28
+updated: 2026-04-18
 ---
 
 # AI Wiki Index
@@ -185,7 +185,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ### Strategy & Industry Analysis (Nate B Jones)
 - [[wiki/sources/anthropic-openai-memory-context-portability]] — Anthropic vs. OpenAI memory architecture philosophies (2026-04)
 - [[wiki/sources/real-problem-ai-agents-clarity-of-intent]] — The real problem with AI agents: clarity of intent, not capability (2026-04)
-- [[wiki/sources/five-safe-places-to-build-in-ai.md|five-safe-places-to-build-in-ai]] — 5 business categories resistant to AI disruption (2026-04)
+- [[wiki/sources/five-safe-places-to-build-in-ai]] — 5 business categories resistant to AI disruption (2026-04)
 - [[wiki/sources/wall-street-285b-ai-agents-review]] — Wall Street's $285B SaaS sell-off was correct; agents are coming (2026-04)
 - [[wiki/sources/amazon-fired-engineers-ai-dark-code]] — Amazon engineering layoffs + dark code + spec-driven mandate (2026-04)
 - [[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]] — Why you get 2x gains despite 50x AI speed: tool-call bottleneck (2026-04)

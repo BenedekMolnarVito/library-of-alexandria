@@ -10,7 +10,7 @@ tags:
   - agentic-coding
   - knowledge-management
 created: 2026-04-18
-updated: 2026-04-28
+updated: 2026-04-18
 sources:
   - "[[wiki/sources/karpathy-llm-wiki-future-personal-knowledge]]"
   - "[[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]]"
