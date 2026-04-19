@@ -32,8 +32,8 @@ sources:
 
 Uses the **átalányadó** (flat-rate taxation) method, which is a simplified tax regime for Hungarian sole proprietors.
 
-> [!question] Open Question
-> Is the EV still active, or has it been closed? The `Zárás/` (closure) folder and `tevekenyseg-megszuntetesek.pdf` (activity cessation) suggest it may have been wound down.
+> [!note] Status: Active
+> The EV is confirmed active as of 2026-04-19. The `Zárás/` (closure) folder and `tevekenyseg-megszuntetesek.pdf` may relate to a previous activity code being wound down while the EV itself continues under a different classification.
 
 ## Related Concepts
 

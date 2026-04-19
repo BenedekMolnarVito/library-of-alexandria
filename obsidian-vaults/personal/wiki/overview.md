@@ -70,17 +70,6 @@ This vault is built with three core principles:
 2. **Bilingual**: Documents exist in both Hungarian and English; the vault processes and organizes both
 3. **Living document**: Information is not static. As life changes, the vault evolves. New sources can be ingested, pages updated, and the structure adapted
 
-## Open Questions
-
-> [!question] What is the relationship between Servimus, the IT Consulting Company, and Madis Consulting?
-> Multiple companies appear in the records. The exact timeline and relationships need clarification.
-
-> [!question] Is the EV (sole proprietorship) still active?
-> Closure documents exist but status is unclear.
-
-> [!question] What happened with the Frontside role?
-> Exit documents suggest a separation involving liquidation/wage guarantee in late 2025.
-
 ## Scope Notes
 
 This vault covers:

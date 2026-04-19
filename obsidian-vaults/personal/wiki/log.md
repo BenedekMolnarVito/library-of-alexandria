@@ -3,7 +3,7 @@ title: "Personal Wiki Log"
 type: log
 domain: personal
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2025-06-10
 ---
 
 # Personal Wiki Log
@@ -71,3 +71,21 @@ Processed the vault initialization prompt and scraped the full OneDrive director
 **Sources processed**: 1 prompt document, 1 CV (.docx extracted), full OneDrive directory tree (~60+ top-level items, 20+ subfolders)
 
 Pages touched: all 27 pages listed above
+
+---
+
+## [2025-06-10] ingest | OneDrive Raw Document Ingestion
+
+Ingested all OneDrive documents into `raw/` as full-content Markdown files, matching the format of the `ai` vault. Binary files (images, Excel, PDFs, code files) are represented as summarized catalog Markdown files.
+
+**Created 33 raw files** (+ 1 pre-existing `personal-vault-init-prompt.md`):
+
+- **Journals & Notes**: [[raw/alomnaplo]], [[raw/otletek]], [[raw/szt-agoston-quotes]]
+- **Career & Professional**: [[raw/onedrive-frontside-documents]], [[raw/onedrive-cv-collection]], [[raw/servimus-business-travel-certificate]], [[raw/onedrive-servimus-contracts]], [[raw/onedrive-ev-contracts]], [[raw/copilot-onboarding-instructions-template]]
+- **Projects & Software**: [[raw/budget-tracker-mini-features]], [[raw/emese-webshop-notes]], [[raw/tool-smithy-mcp-project]], [[raw/greenfield-project-template]], [[raw/onedrive-python-scripts]]
+- **Tribe App (10 files)**: [[raw/tribe-ideas]], [[raw/tribe-product-questions]], [[raw/tribe-dev-spec-prompt]], [[raw/tribe-dev-spec-tier1-claude-api]], [[raw/tribe-dev-spec-tier2-static-guide]], [[raw/tribe-dev-spec-tier3-hybrid-nudge]], [[raw/tribe-dev-spec-tier4-regex-validator]], [[raw/tribe-dev-spec-tier5-ondevice-ner]], [[raw/tribe-copilot-instructions]], [[raw/tribe-trust-scoring-browser-scenarios]], [[raw/vito-dungeon-spec]]
+- **Finance & Property**: [[raw/onedrive-budget-financial-docs]], [[raw/onedrive-property-documents]], [[raw/onedrive-excel-files]]
+- **Creative & Reading**: [[raw/fantasy-writing-hf-series]], [[raw/onedrive-fantasy-writing]], [[raw/range-quotes]]
+- **Media & Misc**: [[raw/onedrive-images]], [[raw/onedrive-pdf-documents]]
+
+**Updated**: [[wiki/index]] — Sources section expanded with all 34 raw files

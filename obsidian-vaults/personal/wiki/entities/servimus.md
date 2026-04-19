@@ -28,5 +28,5 @@ A company associated with [[wiki/entities/molnar-benedek]], with extensive bookk
 - Vehicle purchase/sale contract template
 - Driver's license scan (`jogsi_MB.pdf`)
 
-> [!question] Open Question
-> What is the relationship between Servimus and [[wiki/entities/madis-consulting]]? Are they successive companies, or does Servimus handle a different business function?
+> [!note] Relationship Context
+> There is no formal contractual relationship between Servimus and [[wiki/entities/madis-consulting]] or any other company in [[wiki/entities/molnar-benedek]]'s history. The companies represent separate chapters of professional history, not related entities.

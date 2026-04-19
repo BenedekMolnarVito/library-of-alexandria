@@ -89,6 +89,8 @@ See [[wiki/sources/cv-madis-2024]] for full work history.
 ## Companies & Business
 
 - [[wiki/entities/madis-consulting]] — Current employer (2025–present)
+- [[wiki/entities/frontside]] — Backend Software Developer (April 2023 – January 2026)
+- [[wiki/entities/it-consulting-company]] — Mentioned in CV for same period (projects at KUKA AG)
 - [[wiki/entities/targenta]] — Previous employer (2020–2023)
 - [[wiki/entities/servimus]] — Company with bookkeeping records on OneDrive
-- Sole Proprietorship (EV) — see [[wiki/concepts/sole-proprietorship]]
+- Sole Proprietorship (EV) — active, see [[wiki/concepts/sole-proprietorship]]

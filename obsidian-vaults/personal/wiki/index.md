@@ -3,7 +3,7 @@ title: "Personal Wiki Index"
 type: index
 domain: personal
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2025-06-10
 ---
 
 # Personal Wiki Index
@@ -67,9 +67,66 @@ A catalog of all pages in the Personal knowledge wiki. Updated on every ingest.
 
 ## Sources
 
+### Wiki Source Pages
+
 - [[wiki/sources/personal-vault-init-prompt]] — Founding document with personal info, preferences, and instructions (2026-04-19)
 - [[wiki/sources/cv-madis-2024]] — Most recent professional CV, December 2024 (2024-12)
 - [[wiki/sources/onedrive-inventory]] — Complete inventory of OneDrive content (2026-04-19)
+
+### Raw Documents — Journals & Notes
+
+- [[raw/alomnaplo]] — Dreams journal (ÁLMOK.docx), Hungarian text, mixed dreams and reflections
+- [[raw/otletek]] — Ideas document (ötletek.docx), Hungarian text, assorted project and life ideas
+- [[raw/szt-agoston-quotes]] — St. Augustine quotes + curated quotations collection
+
+### Raw Documents — Career & Professional
+
+- [[raw/onedrive-frontside-documents]] — Frontside employment documents summary (contracts, exit paperwork)
+- [[raw/onedrive-cv-collection]] — CV collection catalog (all CV versions across employers)
+- [[raw/servimus-business-travel-certificate]] — COVID-era business travel certificate (2020)
+- [[raw/onedrive-servimus-contracts]] — Servimus company contracts summary
+- [[raw/onedrive-ev-contracts]] — EV (egyéni vállalkozó) sole proprietorship contracts summary
+- [[raw/copilot-onboarding-instructions-template]] — GitHub Copilot onboarding instructions template
+
+### Raw Documents — Projects & Software
+
+- [[raw/budget-tracker-mini-features]] — Budget tracker app features and bug spec
+- [[raw/emese-webshop-notes]] — Emese webshop project notes
+- [[raw/tool-smithy-mcp-project]] — Tool Smithy MCP server project brief
+- [[raw/greenfield-project-template]] — Greenfield project specification template
+- [[raw/onedrive-python-scripts]] — Python scripts summary (all .py files on OneDrive)
+
+### Raw Documents — Tribe App
+
+- [[raw/tribe-ideas]] — Early Tribe brainstorm ideas (tribe-ideas.txt)
+- [[raw/tribe-product-questions]] — Tribe product questions and decision log
+- [[raw/tribe-dev-spec-prompt]] — Prompt that spawned the Tribe dev spec series
+- [[raw/tribe-dev-spec-tier1-claude-api]] — Tier 1: Claude API intent extraction spec
+- [[raw/tribe-dev-spec-tier2-static-guide]] — Tier 2: Static guide system spec
+- [[raw/tribe-dev-spec-tier3-hybrid-nudge]] — Tier 3: Hybrid AI + static nudge spec (confidence gating)
+- [[raw/tribe-dev-spec-tier4-regex-validator]] — Tier 4: Pure regex validator spec (zero network)
+- [[raw/tribe-dev-spec-tier5-ondevice-ner]] — Tier 5: On-device NER spec (Compromise.js + ONNX)
+- [[raw/tribe-copilot-instructions]] — Tribe Copilot verbose instructions (full stack dev guide)
+- [[raw/tribe-trust-scoring-browser-scenarios]] — Trust Scoring Phase 1 browser user scenarios
+- [[raw/vito-dungeon-spec]] — Vito's Dungeon RPG mobile game spec
+
+### Raw Documents — Finance & Property
+
+- [[raw/onedrive-budget-financial-docs]] — Budget and financial documents summary
+- [[raw/onedrive-property-documents]] — Budapest apartment + Pusztaszabolcs property documents
+- [[raw/onedrive-excel-files]] — Excel files summary (budget trackers, data sheets)
+
+### Raw Documents — Creative & Reading
+
+- [[raw/fantasy-writing-hf-series]] — Full text of HF1–HF5 fantasy stories (Robur forest, fire elves, kruor inventors)
+- [[raw/onedrive-fantasy-writing]] — Fantasy writing catalog (course context, story list)
+- [[raw/range-quotes]] — Curated quotes from *Range* by David Epstein
+
+### Raw Documents — Media & Misc
+
+- [[raw/onedrive-images]] — Images and media files summary
+- [[raw/onedrive-pdf-documents]] — PDF documents summary
+- [[raw/personal-vault-init-prompt]] — Vault initialization prompt (founding document)
 
 ## Analyses
 
