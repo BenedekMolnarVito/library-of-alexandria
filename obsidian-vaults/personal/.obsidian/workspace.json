@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "d2d96bebde785bd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "16be1e461e90ad6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3c6a77ce327aa70",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Új lap"
+            }
+          }
+        ]
+      },
+      {
+        "id": "abd157ff8a42e089",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c2ebeeae7e4a098",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Gráf nézet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a809e0ce76accbae",
+    "type": "split",
+    "children": [
+      {
+        "id": "f991de07d32458c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e06edfe3393bb1f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Fájlkezelő"
+            }
+          },
+          {
+            "id": "44434aa82782ab2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Keresés"
+            }
+          },
+          {
+            "id": "4cee14778ae068a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Könyvjelzők"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b3204a490f837af1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b5d0360e4a1e470",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "003e9d0216221e3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Visszahivatkozások"
+            }
+          },
+          {
+            "id": "e6e1799daad52c9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Kimenő kapcsolatok"
+            }
+          },
+          {
+            "id": "0fed4e02a567939a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Címkék"
+            }
+          },
+          {
+            "id": "df515a9b81c8d1b7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Minden tulajdonság"
+            }
+          },
+          {
+            "id": "343f7ba799e60cfa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Vázlat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Gyors váltó megnyitása": false,
+      "graph:Gráf nézet megnyitása": false,
+      "canvas:Új vászon létrehozása": false,
+      "daily-notes:Mai jegyzet megnyitása": false,
+      "templates:Sablon beszúrása": false,
+      "command-palette:Parancspaletta megnyitása": false,
+      "bases:Új bázis létrehozása": false
+    }
+  },
+  "active": "c3c6a77ce327aa70",
+  "lastOpenFiles": [
+    "Üdvözöljük.md"
+  ]
+}

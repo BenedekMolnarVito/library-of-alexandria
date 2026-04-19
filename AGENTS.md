@@ -14,7 +14,8 @@ library-of-alexandria/
 ├── README.md                        # Project overview
 ├── llm-wiki-idea.md                 # Original idea document (reference)
 └── obsidian-vaults/
-    └── ai/                          # AI domain vault (more domains may be added later)
+    ├── ai/                          # AI domain vault
+    └── personal/                    # Personal life vault (owner profile, career, finance, hobbies)
         ├── .obsidian/               # Obsidian configuration
         ├── raw/                     # Raw sources (IMMUTABLE — never modify)
         │   └── assets/              # Downloaded images & attachments
@@ -31,7 +32,7 @@ library-of-alexandria/
 
 ### Multi-domain design
 
-Each knowledge domain lives in its own Obsidian vault under `obsidian-vaults/`. The first domain is `ai/`. Future domains (e.g. `finance/`, `health/`, `history/`) will follow the same internal structure (`raw/`, `wiki/`, etc.). Cross-domain linking is intentionally avoided — each vault is self-contained.
+Each knowledge domain lives in its own Obsidian vault under `obsidian-vaults/`. The first domain is `ai/`, the second is `personal/` (owner profile, career, finances, hobbies, infrastructure). Future domains will follow the same internal structure (`raw/`, `wiki/`, etc.). Cross-domain linking is intentionally avoided — each vault is self-contained.
 
 ---
 
