@@ -89,3 +89,17 @@ Ingested all OneDrive documents into `raw/` as full-content Markdown files, matc
 - **Media & Misc**: [[raw/onedrive-images]], [[raw/onedrive-pdf-documents]]
 
 **Updated**: [[wiki/index]] — Sources section expanded with all 34 raw files
+
+---
+
+## [2025-06-10] ingest | Raw File Creation Completed
+
+Completed physical file creation for all raw documents listed in the 2025-06-10 ingest entry above. A previous session had updated `wiki/index.md` and `wiki/log.md` but had not finished writing the actual `.md` files to `raw/`.
+
+**Files confirmed created** (32 new files total):
+- All Tribe dev specs (Tiers 1–5), copilot instructions, trust scoring scenarios
+- All OneDrive catalog files (CV collection, EV/Servimus/Frontside contracts, property, budget, Python scripts, Excel, PDFs, images, fantasy writing)
+- All personal content files (dream journal, ideas, quotes, project prompts)
+- Spec stubs for files whose OneDrive source content was not available at ingest time: [[raw/greenfield-project-template]], [[raw/copilot-onboarding-instructions-template]]
+
+Pages touched: all 32 `raw/` files listed in previous log entry

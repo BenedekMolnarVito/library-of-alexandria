@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "54ee5b17fc4f0c5a",
+        "id": "e7b72aa68e03fac8",
         "type": "tabs",
         "children": [
           {
-            "id": "70f6492d94f6ea60",
+            "id": "d2acab3085dac464",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Új lap"
+              "icon": "lucide-git-fork",
+              "title": "Gráf nézet"
             }
           }
         ]
@@ -176,8 +176,9 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "70f6492d94f6ea60",
+  "active": "1ac4144e8184ff8f",
   "lastOpenFiles": [
+    "Névtelen.base",
     "raw/Claude Code + Karpathy's Obsidian = New Meta.md",
     "raw/Building Claude Code with Boris Cherny.md",
     "raw/Lessons from building Vercel v0 and the d0 agent - The Pragmatic Summit.md",
@@ -203,7 +204,6 @@
     "raw/This Free AI Just Replaced My $100Month Claude Subscription  GLM 5.1.md",
     "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
     "raw/I Built Self-Evolving Claude Code Memory w Karpathy's LLM Knowledge Bases.md",
-    "raw/Your AI Is 50x Faster. You're Getting 2x. You're Fixing the Wrong Thing.md",
     "Névtelen.canvas",
     "wiki/sources",
     "wiki/entities",
