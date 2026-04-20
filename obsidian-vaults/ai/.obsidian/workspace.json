@@ -11,10 +11,14 @@
             "id": "d2acab3085dac464",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Gráf nézet"
+              "type": "markdown",
+              "state": {
+                "file": "raw/From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution"
             }
           }
         ]
@@ -176,8 +180,23 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "1ac4144e8184ff8f",
+  "active": "d2acab3085dac464",
   "lastOpenFiles": [
+    "raw/The Phase Transition in Your Knowledge Graph Why Agent Memory Suddenly “Clicks”.md",
+    "raw/From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution.md",
+    "raw/The Rise of “Memory Palaces” Why Milla Jovovich’s MemPalace is Disrupting the AI Memory Space.md",
+    "raw/Ayona (OpenClaw) vs Milla (MemPalace) I Challenged a Specialized Memory Library With a 30-Year-Old….md",
+    "raw/MemPalace Milla Jovovich’s AI Memory System — What the Benchmarks Actually Mean.md",
+    "raw/Resident Eval Mila Jovovich’s MemPalace A First Glimpse.md",
+    "raw/MemPalace — Give Your AI a Real Memory.md",
+    "raw/The Death of Ephemeral Context Why MemPalace’s ‘AAAK’ Dialect is a Wake-Up Call for AI Memory.md",
+    "raw/Giving Your AI a Memory An Introduction to MemPalace.md",
+    "raw/MemPalace By Mila Jovovich 96.6% Recall With Zero API Calls (Too Good To Be True).md",
+    "raw/MemPalace The Viral AI Memory System That Got 22K Stars in 48 Hours (An Honest Look and Setup….md",
+    "raw/Paperclip AI Open source platform focused on turning ai agents into a company.md",
+    "raw/How I run 122B-parameter LLMs on a MacBook — outperforming MXFP4 and standard quantization on Apple….md",
+    "raw/Ön a következőt mondta I want to use my local mod.md",
+    "raw/A Guide to Andrej Karpathy’s AutoResearch Automating ML with AI Agents.md",
     "Névtelen.base",
     "raw/Claude Code + Karpathy's Obsidian = New Meta.md",
     "raw/Building Claude Code with Boris Cherny.md",
@@ -190,20 +209,6 @@
     "raw/Claude as a Dungeon Master -Let's check it out 1.md",
     "raw/DHH’s new way of writing code 1.md",
     "raw/Claude as a Dungeon Master -Let's check it out.md",
-    "raw/Master 95% of Claude Code Skills in 28 Minutes.md",
-    "raw/Anthropic And OpenAI Are Fighting Over Your Memory. You're Going To Lose.md",
-    "raw/I Looked At Amazon After They Fired 16,000 Engineers. Their AI Broke Everything.md",
-    "raw/Openclaw + Gemma 4 = FREE & Private AI.md",
-    "Untitled.md",
-    "raw/Claude Code + Paperclip Just Destroyed OpenClaw.md",
-    "raw/There Are Only 5 Safe Places to Build in AI Right Now. Are You in One.md",
-    "raw/How to Build Claude Agent Teams Better Than 99% of People.md",
-    "raw/A Polymarket Bot Made $438,000 In 30 Days. Your Industry Is Next. Here's What To Do About It.md",
-    "raw/Claude Just Told Us to Stop Using Their Best Model.md",
-    "raw/Claude Code Skills Just Got Even Better.md",
-    "raw/This Free AI Just Replaced My $100Month Claude Subscription  GLM 5.1.md",
-    "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
-    "raw/I Built Self-Evolving Claude Code Memory w Karpathy's LLM Knowledge Bases.md",
     "Névtelen.canvas",
     "wiki/sources",
     "wiki/entities",
