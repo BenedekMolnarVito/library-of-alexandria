@@ -7,7 +7,7 @@ tags:
   - analyst
   - content-creator
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/300-dollars-auto-research-karpathy-loop]]"
   - "[[wiki/sources/anthropic-openai-memory-context-portability]]"
@@ -16,6 +16,7 @@ sources:
   - "[[wiki/sources/wall-street-285b-ai-agents-review]]"
   - "[[wiki/sources/amazon-fired-engineers-ai-dark-code]]"
   - "[[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]]"
+  - "[[wiki/sources/world-model-interpretive-boundary]]"
 ---
 
 # Nate B. Jones
@@ -38,6 +39,8 @@ Jones has developed several recurring analytical frameworks that appear across h
 
 **Dark Code**: The phenomenon of engineers using AI to write code that no other human understands, reviewed, or maintains — creating organizational liability and technical debt that is invisible until it fails. Directly connected to the Amazon engineer firing case study. (Source: [[wiki/sources/amazon-fired-engineers-ai-dark-code]])
 
+**Interpretive Boundary / World Models**: Jones distinguishes between software that routes information and software that quietly makes judgment calls, arguing that world-model systems become dangerous when they blur the line. (Source: [[wiki/sources/world-model-interpretive-boundary]])
+
 Jones also covered the Karpathy autoresearch loop in depth (Source: [[wiki/sources/300-dollars-auto-research-karpathy-loop]]), the Anthropic/OpenAI memory and context portability competition (Source: [[wiki/sources/anthropic-openai-memory-context-portability]]), and the Wall Street $285B AI agent investment wave (Source: [[wiki/sources/wall-street-285b-ai-agents-review]]).
 
 ## Role in AI Landscape
@@ -48,4 +51,4 @@ Jones fills an important niche as a strategic interpreter of AI developments for
 
 - **Related entities**: [[wiki/entities/anthropic]], [[wiki/entities/openai]], [[wiki/entities/andrej-karpathy]]
 - **Key concepts**: [[wiki/concepts/intelligence-arbitrage]], [[wiki/concepts/dark-code]], [[wiki/concepts/clarity-of-intent]], [[wiki/concepts/claude-md-pattern]], [[wiki/concepts/autoresearch-loop]]
-- **Sources**: [[wiki/sources/300-dollars-auto-research-karpathy-loop]], [[wiki/sources/anthropic-openai-memory-context-portability]], [[wiki/sources/real-problem-ai-agents-clarity-of-intent]], [[wiki/sources/five-safe-places-to-build-in-ai]], [[wiki/sources/wall-street-285b-ai-agents-review]], [[wiki/sources/amazon-fired-engineers-ai-dark-code]], [[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]]
+- **Sources**: [[wiki/sources/300-dollars-auto-research-karpathy-loop]], [[wiki/sources/anthropic-openai-memory-context-portability]], [[wiki/sources/real-problem-ai-agents-clarity-of-intent]], [[wiki/sources/five-safe-places-to-build-in-ai]], [[wiki/sources/wall-street-285b-ai-agents-review]], [[wiki/sources/amazon-fired-engineers-ai-dark-code]], [[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]], [[wiki/sources/world-model-interpretive-boundary]]

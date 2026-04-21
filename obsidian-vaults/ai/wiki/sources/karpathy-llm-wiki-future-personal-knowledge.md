@@ -10,7 +10,7 @@ tags:
   - ecosystem
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/Why Andrej Karpathy's \"LLM Wiki\" is the Future of Personal Knowledge.md]]"
+raw: "[[raw/Why Andrej Karpathy’s “LLM Wiki” is the Future of Personal Knowledge.md]]"
 ---
 
 # Why Andrej Karpathy's "LLM Wiki" is the Future of Personal Knowledge

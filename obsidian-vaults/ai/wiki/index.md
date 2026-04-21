@@ -2,6 +2,10 @@
 title: "AI Wiki Index"
 type: index
 domain: ai
+tags:
+  - index
+  - navigation
+  - ai
 created: 2026-04-18
 updated: 2026-04-21
 sources:
@@ -27,6 +31,8 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/entities/boris-cherny]] — Anthropic engineer who built Claude Code from scratch
 - [[wiki/entities/nate-b-jones]] — Creator of *AI News & Strategy Daily*; frameworks: intelligence arbitrage, dark code, SOUL.md
 - [[wiki/entities/nate-herk]] — AI automation practitioner; built $438K Polymarket bot; 100-hour Claude Code review
+- [[wiki/entities/mo-gawdat]] — Former Google X executive focused on AI macro strategy, labor disruption, and ethical adaptation
+- [[wiki/entities/tiago-forte]] — Popularized the second-brain framework that LLM wikis partly inherit and automate
 - [[wiki/entities/chip-huyen]] — ML systems author (*Designing ML Systems*); AI evaluation frameworks
 - [[wiki/entities/steve-yegge]] — Veteran engineer (Google/Amazon/Sourcegraph); "IDEs are dying" thesis
 - [[wiki/entities/dhh]] — Creator of Rails, co-founder of 37signals; craft-preserving AI adoption model
@@ -59,6 +65,9 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/entities/nous-research]] — Open-source AI org; Hermes fine-tuned model series
 - [[wiki/entities/datalab]] — Built Chandra OCR 2; benchmark-topping document intelligence
 - [[wiki/entities/exo-labs]] — Open-source distributed inference (Exo tool)
+- [[wiki/entities/minimax]] — Model lab emphasizing low-cost agentic models and self-evolving harness narratives
+- [[wiki/entities/amazon]] — Large-scale enterprise AI adoption case study; dark code and spec-driven governance pressure
+- [[wiki/entities/apple]] — Apple Silicon as the hardware substrate for local-first AI workflows
 
 ### Models
 
@@ -84,6 +93,8 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/entities/mcp]] — Anthropic's Model Context Protocol; open standard for AI tool connectivity
 - [[wiki/entities/cline]] — Open-source VS Code extension for agentic coding; model-agnostic
 - [[wiki/entities/mempalace]] — Local-first AI memory system using spatial organization and layered recall
+- [[wiki/entities/polymarket]] — Prediction-market platform used as a clean AI arbitrage case study
+- [[wiki/entities/amazon-kira]] — Amazon's internal coding tool pushed toward spec-driven workflows after failures
 
 ## Concepts
 
@@ -95,6 +106,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/concepts/claude-md]] — CLAUDE.md / AGENTS.md: standing instruction files loaded at every agent session
 - [[wiki/concepts/skill-md]] — Task-specific expertise files; portable, evolvable agent capabilities
 - [[wiki/concepts/soul-md]] — Persistent AI identity files; agent self-model that survives across sessions
+- [[wiki/concepts/world-model]] — Company-scale knowledge system that must separate fact routing from judgment
 
 ### Agent Architecture
 - [[wiki/concepts/agent-memory]] — Memory types, Anthropic vs. OpenAI philosophies, memory-as-substrate thesis
@@ -134,6 +146,9 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/concepts/personal-knowledge-management]] — PKM augmented by AI: "The hard part was always the bookkeeping"
 - [[wiki/concepts/prediction-markets]] — Market-based information aggregation; AI-automated arbitrage
 - [[wiki/concepts/context-window-management]] — Token efficiency: Caveman plugin, CLAUDE.md length, sliding windows
+- [[wiki/concepts/cloud-native-architecture]] — Modular monolith to distributed systems progression; cloud-era architecture tradeoffs
+- [[wiki/concepts/software-3-0]] — Natural-language control layer that composes code, models, and tools
+- [[wiki/concepts/self-evolving-software]] — Harness and memory systems that improve themselves through evaluation and write-back
 
 ### Memory & Graph Dynamics
 - [[wiki/concepts/memory-palace-architecture]] — Spatially organized agent memory using structured retrieval scopes
@@ -152,6 +167,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/300-dollars-auto-research-karpathy-loop]] — Nate B Jones: $300 hardware build + Karpathy Loop + SOUL.md (2026-04)
 - [[wiki/sources/claude-code-karpathy-obsidian-new-meta]] — Meta discussion of Karpathy Obsidian pattern as new workflow (2026-04)
 - [[wiki/sources/self-evolving-claude-code-memory-karpathy-llm-knowledge-bases]] — Cole Medin: context-portal self-evolving memory system (2026-04)
+- [[wiki/sources/autoresearch-tutorial-david-ondrej]] — David Ondrej: beginner-friendly autoresearch walkthrough and three-file architecture (2026-03)
 
 ### Claude Code Ecosystem
 - [[wiki/sources/building-claude-code-boris-cherny]] — Pragmatic Engineer: Boris Cherny on building Claude Code at Anthropic (2026-03)
@@ -159,7 +175,9 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/100-hours-claude-code-vs-antigravity]] — Nate Herk: 100-hour Claude Code review vs. alternatives (2026-04)
 - [[wiki/sources/master-claude-code-skills]] — Nate Herk: mastering skills, CLAUDE.md, and advanced workflows (2026-04)
 - [[wiki/sources/claude-code-skills-got-better]] — How Claude Code skill.md files evolved (2026-04)
+- [[wiki/sources/eight-claude-skills-meta-skills]] — Ben AI: reusable meta skills for planning, prompting, checking, and decision support (2026-04)
 - [[wiki/sources/cut-claude-code-output-tokens-75-percent]] — Alex Dunlop: Caveman plugin cuts output tokens 75% (2026-04)
+- [[wiki/sources/claude-session-limit-management]] — Nate Herk: context rot, rewind, handoff, and session-discipline playbook (2026-04)
 - [[wiki/sources/codex-and-claude-side-by-side]] — OpenAI Codex CLI vs. Claude Code direct comparison (2026-04)
 - [[wiki/sources/anthropic-harness-engineering-two-agent-architecture]] — Anthropic's two-agent harness engineering architecture (2026-04)
 - [[wiki/sources/ditched-warp-free-zshrc]] — Alex Dunlop: switched from Warp to free .zshrc setup (2026-04)
@@ -203,15 +221,26 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/amazon-fired-engineers-ai-dark-code]] — Amazon engineering layoffs + dark code + spec-driven mandate (2026-04)
 - [[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]] — Why you get 2x gains despite 50x AI speed: tool-call bottleneck (2026-04)
 - [[wiki/sources/karpathy-llm-wiki-pattern-rag]] — LLM wiki pattern killing the need for RAG (2026-04)
+- [[wiki/sources/world-model-interpretive-boundary]] — Nate B Jones: world-model architectures fail when they hide judgment inside retrieval (2026-04)
+- [[wiki/sources/mo-gawdat-next-ai-phase-positioning]] — Mo Gawdat on agility, ethics, and labor disruption ahead of the next AI phase (2026-03)
 
 ### Engineering Practice
 - [[wiki/sources/from-ides-to-ai-agents-steve-yegge]] — Steve Yegge: IDEs are dying, agents are replacing them (2026-04)
 - [[wiki/sources/dhh-new-way-writing-code-agent-first]] — DHH on the new way of writing code with AI agents (2026-04)
 - [[wiki/sources/product-minded-engineers-ai-native]] — Pragmatic Engineer: product-minded engineering in the AI era (2026-04)
+- [[wiki/sources/coder-to-architect-developer-role-2026]] — Broad career framing on the shift from implementation to architecture and AI oversight (2025-11)
+- [[wiki/sources/evolving-software-architecture-cloud-era]] — Cloud-era architecture tradeoffs: modular monoliths, distribution, and resilience (2025-10)
+- [[wiki/sources/software-stack-1-0-2-0-3-0]] — Jared Hatfield on how code, models, and language-directed agents compose (2026-04)
 - [[wiki/sources/uber-agentic-engineering-shift]] — Uber's agentic engineering shift case study (2026-04)
 - [[wiki/sources/stop-vibe-coding-4-file-system]] — Stop vibe coding: 4-file system (spec/plan/changelog/.cursorrules) (2026-04)
 - [[wiki/sources/polymarket-bot-438k-ai-arbitrage]] — Nate Herk: $438K Polymarket bot built with AI (2026-04)
 - [[wiki/sources/chip-huyen-building-when-nothing-left-to-build]] — Chip Huyen at AI Summit: evaluation and production ML (2026-04)
+
+### Self-Evolving Systems
+- [[wiki/sources/minimax-m2-7-self-evolving-agent-model]] — Developers Digest on MiniMax M2.7's self-evolving harness and cheap agentic usage (2026-03)
+- [[wiki/sources/self-evolving-ai-open-weight]] — Prompt Engineering on MiniMax self-improvement loops and harness quality (2026-03)
+- [[wiki/sources/self-evolving-software-code-improves-itself]] — Broad essay on continuous self-improvement in software systems (2026-03)
+- [[wiki/sources/self-evolving-agent-architectures-explained]] — AI Jason on Claude Code, OpenClaw, Hermes, and memory-vs-harness evolution (2026-04)
 
 ### Knowledge & Data Architecture
 - [[wiki/sources/markdown-file-beats-vector-database]] — The markdown file that beat a $50M vector database (2026-04)

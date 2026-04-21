@@ -10,7 +10,7 @@ tags:
   - agentic-coding
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/Anthropic's Harness Engineering Two Agents, One Feature List, Zero Context Overflow.md]]"
+raw: "[[raw/Anthropic’s Harness Engineering Two Agents, One Feature List, Zero Context Overflow.md]]"
 ---
 
 # Anthropic's Harness Engineering: Two Agents, One Feature List, Zero Context Overflow

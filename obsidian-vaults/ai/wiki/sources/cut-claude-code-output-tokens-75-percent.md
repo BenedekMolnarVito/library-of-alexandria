@@ -9,7 +9,7 @@ tags:
   - plugins
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/I Cut Claude Code's Output Tokens by 75%. Why Did Nobody Tell Me.md]]"
+raw: "[[raw/I Cut Claude Code’s Output Tokens by 75%. Why Did Nobody Tell Me.md]]"
 ---
 
 # I Cut Claude Code's Output Tokens by 75%. Why Did Nobody Tell Me?

@@ -10,7 +10,7 @@ tags:
   - ruby-on-rails
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/DHH's new way of writing code.md]]"
+raw: "[[raw/DHH’s new way of writing code.md]]"
 ---
 
 # DHH's new way of writing code

@@ -45,7 +45,7 @@ The article's secondary thesis is as important as its primary one: the near-zero
 - [[wiki/entities/kimi-k2-5]]
 - [[wiki/entities/deepseek-v3-2]]
 - [[wiki/entities/glm-4-7]]
-- [[wiki/entities/minimax-m2-1]]
+- [[wiki/entities/minimax]]
 - [[wiki/entities/moonshot-ai]]
 - [[wiki/entities/anthropic]]
 

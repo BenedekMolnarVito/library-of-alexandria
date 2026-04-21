@@ -10,7 +10,7 @@ tags:
   - obsidian
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/Andrej Karpathy Just 10x'd Everyone's Claude Code.md]]"
+raw: "[[raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md]]"
 ---
 
 # Andrej Karpathy Just 10x'd Everyone's Claude Code

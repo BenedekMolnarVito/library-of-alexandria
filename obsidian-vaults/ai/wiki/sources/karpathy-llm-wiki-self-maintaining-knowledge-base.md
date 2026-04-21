@@ -10,7 +10,7 @@ tags:
   - open-source
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/I used Karpathy's LLM Wiki to build a knowledge base that maintains itself with AI.md]]"
+raw: "[[raw/I used Karpathy’s LLM Wiki to build a knowledge base that maintains itself with AI.md]]"
 ---
 
 # I used Karpathy's LLM Wiki to build a knowledge base that maintains itself with AI

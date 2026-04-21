@@ -2,6 +2,10 @@
 title: "AI Wiki Log"
 type: log
 domain: ai
+tags:
+  - log
+  - maintenance
+  - history
 created: 2026-04-18
 updated: 2026-04-21
 sources:
@@ -139,3 +143,42 @@ Completed a research synthesis on how to apply the Karpathy Loop to a general co
 Result: Saved as [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]].
 
 Pages touched: [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]], [[wiki/index]], [[wiki/log]]
+
+---
+
+## [2026-04-21] ingest | AI Raw Source Batch — Architecture, Skills, and Self-Evolution
+
+Processed a new AI-vault batch spanning Claude Code workflow skills, world-model architecture, developer-role shift, Software 3.0 framing, and the emerging self-evolving-agent stack.
+
+- Created 12 new source pages: [[wiki/sources/eight-claude-skills-meta-skills]], [[wiki/sources/world-model-interpretive-boundary]], [[wiki/sources/evolving-software-architecture-cloud-era]], [[wiki/sources/mo-gawdat-next-ai-phase-positioning]], [[wiki/sources/coder-to-architect-developer-role-2026]], [[wiki/sources/claude-session-limit-management]], [[wiki/sources/minimax-m2-7-self-evolving-agent-model]], [[wiki/sources/self-evolving-software-code-improves-itself]], [[wiki/sources/self-evolving-ai-open-weight]], [[wiki/sources/software-stack-1-0-2-0-3-0]], [[wiki/sources/autoresearch-tutorial-david-ondrej]], [[wiki/sources/self-evolving-agent-architectures-explained]]
+- Created new concept pages: [[wiki/concepts/world-model]], [[wiki/concepts/cloud-native-architecture]], [[wiki/concepts/software-3-0]], [[wiki/concepts/self-evolving-software]]
+- Created new entity pages: [[wiki/entities/mo-gawdat]], [[wiki/entities/minimax]]
+- Updated existing synthesis pages to absorb the batch: [[wiki/concepts/skill-md]], [[wiki/concepts/autoresearch]], [[wiki/concepts/context-window-management]], [[wiki/concepts/product-minded-engineering]], [[wiki/concepts/agent-memory]], [[wiki/entities/nate-herk]], [[wiki/entities/nate-b-jones]], [[wiki/overview]], [[wiki/index]]
+
+Pages touched: [[wiki/index]], [[wiki/overview]], [[wiki/log]], [[wiki/concepts/world-model]], [[wiki/concepts/cloud-native-architecture]], [[wiki/concepts/software-3-0]], [[wiki/concepts/self-evolving-software]]
+
+---
+
+## [2026-04-21] lint | AI Vault Hardening Pass
+
+Ran a maintenance pass alongside ingest and applied targeted structural fixes:
+
+- Added top-level tags to [[wiki/index]] and [[wiki/log]]
+- Repaired quote-normalization mismatches in existing source `raw:` links so source pages again point at real raw filenames
+- Added [[wiki/entities/minimax]] and rewired an existing MiniMax reference to stop a known missing-link case
+- Updated [[wiki/analyses/raw-dedup-candidates-2026-04-20]] with newly observed duplicate raw clips from this batch
+
+Remaining known debt:
+
+- Contradiction callouts still exist in [[wiki/entities/openclaw]], [[wiki/entities/cline]], [[wiki/analyses/mempalace-agentic-systems-research-2026-04-21]], and [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]]
+- Older pages still contain broader unresolved-link debt outside this focused repair pass
+
+Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/analyses/raw-dedup-candidates-2026-04-20]], [[wiki/entities/minimax]]
+
+---
+
+## [2026-04-21] update | Lint Follow-up Entity Repairs
+
+Added missing high-signal entity pages that were showing up as unresolved wikilinks across older AI pages: [[wiki/entities/amazon]], [[wiki/entities/amazon-kira]], [[wiki/entities/apple]], [[wiki/entities/polymarket]], and [[wiki/entities/tiago-forte]].
+
+Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/entities/amazon]], [[wiki/entities/amazon-kira]], [[wiki/entities/apple]], [[wiki/entities/polymarket]], [[wiki/entities/tiago-forte]]

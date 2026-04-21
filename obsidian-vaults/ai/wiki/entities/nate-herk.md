@@ -8,7 +8,7 @@ tags:
   - content-creator
   - automation
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/100-hours-claude-code-vs-antigravity]]"
   - "[[wiki/sources/polymarket-bot-438k-ai-arbitrage]]"
@@ -18,6 +18,7 @@ sources:
   - "[[wiki/sources/ollama-claude-code-free]]"
   - "[[wiki/sources/how-to-build-claude-agent-teams]]"
   - "[[wiki/sources/openclaw-10000-to-trade-stocks]]"
+  - "[[wiki/sources/claude-session-limit-management]]"
 ---
 
 # Nate Herk
@@ -42,6 +43,8 @@ Herk operates as an independent builder and content creator. His channel focuses
 
 **Free Local Alternatives**: Demonstrated running Claude Code with [[wiki/entities/ollama]] as a free local backend, enabling practitioners to access agentic coding without API costs. (Source: [[wiki/sources/ollama-claude-code-free]])
 
+**Session-Discipline Playbook**: Documented concrete context-window and token-management habits — rewind, handoff summaries, markdown conversion, session chaining, and sub-agent delegation — that make long Claude Code usage more reliable. (Source: [[wiki/sources/claude-session-limit-management]])
+
 ## Role in AI Landscape
 
 Herk's value to the ecosystem is as a trusted practitioner who tests ideas at real financial scale. His willingness to share both wins (the Polymarket bot) and honest assessments (the OpenClaw vs. Claude Code comparison) makes his content more trustworthy than purely promotional content. He also serves a bridging function — translating the rapidly evolving landscape of agent frameworks, local models, and platform choices into actionable decisions for builders.
@@ -50,4 +53,4 @@ Herk's value to the ecosystem is as a trusted practitioner who tests ideas at re
 
 - **Related entities**: [[wiki/entities/anthropic]], [[wiki/entities/claude-code]], [[wiki/entities/openclaw]], [[wiki/entities/paperclip]], [[wiki/entities/ollama]], [[wiki/entities/claude-model-family]]
 - **Key concepts**: [[wiki/concepts/agentic-coding]], [[wiki/concepts/multi-agent-architecture]], [[wiki/concepts/local-ai]]
-- **Sources**: [[wiki/sources/100-hours-claude-code-vs-antigravity]], [[wiki/sources/polymarket-bot-438k-ai-arbitrage]], [[wiki/sources/claude-code-paperclip-destroyed-openclaw]], [[wiki/sources/master-claude-code-skills]], [[wiki/sources/ollama-claude-code-free]], [[wiki/sources/how-to-build-claude-agent-teams]], [[wiki/sources/openclaw-10000-to-trade-stocks]]
+- **Sources**: [[wiki/sources/100-hours-claude-code-vs-antigravity]], [[wiki/sources/polymarket-bot-438k-ai-arbitrage]], [[wiki/sources/claude-code-paperclip-destroyed-openclaw]], [[wiki/sources/master-claude-code-skills]], [[wiki/sources/ollama-claude-code-free]], [[wiki/sources/how-to-build-claude-agent-teams]], [[wiki/sources/openclaw-10000-to-trade-stocks]], [[wiki/sources/claude-session-limit-management]]

@@ -9,9 +9,10 @@ tags:
   - outcomes
   - methodology
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/product-minded-engineers-ai-native]]"
+  - "[[wiki/sources/coder-to-architect-developer-role-2026]]"
 ---
 
 # Product-Minded Engineering
@@ -46,6 +47,8 @@ The AI-native engineering landscape is shifting the distribution of valuable ski
 
 These are all product-minded skills applied to an engineering context. Engineers who develop them will be more effective than those who remain purely technically focused. The engineer who can define a good evaluation criterion is more valuable than the engineer who can implement a complex algorithm — because the evaluation criterion enables automated optimization while the algorithm is a one-time implementation.
 
+Recent career-oriented writing in the corpus reinforces this from another angle: the developer role is drifting toward architecture, AI oversight, and business translation. That material is less rigorous than the panel/interview sources, but it points in the same direction — implementation skill still matters, yet it is no longer the whole job.
+
 The [[outcome-agents]] framework makes this concrete: the agent is evaluated by what it produces for users, not by how elegantly it was built. A product-minded engineer designs agents that produce outcomes users want; a technically-minded engineer designs agents that are technically sophisticated.
 
 ## In Practice
@@ -69,3 +72,4 @@ Product-minded engineers are also better at [[spec-driven-development]] because 
 ## Sources
 
 - [[wiki/sources/product-minded-engineers-ai-native]]
+- [[wiki/sources/coder-to-architect-developer-role-2026]]

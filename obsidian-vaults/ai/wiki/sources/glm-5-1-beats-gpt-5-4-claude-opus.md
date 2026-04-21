@@ -8,7 +8,7 @@ tags:
   - china-ai-development
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/GLM-5.1 Just Beat GPT-5.4 and Claude Opus (And It's Free and Open-Source).md]]"
+raw: "[[raw/GLM-5.1 Just Beat GPT-5.4 and Claude Opus (And It’s Free and Open-Source).md]]"
 ---
 
 # GLM-5.1 Just Beat GPT-5.4 and Claude Opus (And It's Free and Open-Source)

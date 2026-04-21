@@ -9,9 +9,10 @@ tags:
   - karpathy
   - mutation-operators
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/karpathy-autoresearch-universal-skill]]"
+  - "[[wiki/sources/autoresearch-tutorial-david-ondrej]]"
 ---
 
 # Autoresearch
@@ -59,6 +60,8 @@ The universal skill packaging means autoresearch can be dropped into any project
 
 The most practically important design decision is the evaluator. Binary evaluators (pass/fail) outperform scalar ones (0–100 scores) because they eliminate judgment calls about whether a small score improvement justifies keeping a mutation. When the target is binary, the loop's behavior is sharp and unambiguous.
 
+The newer tutorial-style material in this corpus also makes a useful simplification explicit: most working autoresearch setups reduce to three things — an editable artifact, a fixed evaluator, and a program/spec file describing the goal. That framing makes the pattern accessible outside ML research without changing its core logic.
+
 ## Related Concepts
 
 - [[wiki/concepts/karpathy-loop]] — the parent pattern this implements
@@ -75,3 +78,4 @@ The most practically important design decision is the evaluator. Binary evaluato
 ## Sources
 
 - [[wiki/sources/karpathy-autoresearch-universal-skill]]
+- [[wiki/sources/autoresearch-tutorial-david-ondrej]]

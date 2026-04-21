@@ -11,7 +11,7 @@ tags:
   - benchmark
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/I Compared 6 Python AI Agent Frameworks So You Don't Have To LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK vs Smolagents vs Google ADK.md]]"
+raw: "[[raw/I Compared 6 Python AI Agent Frameworks So You Don’t Have To LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK vs Smolagents vs Google ADK.md]]"
 ---
 
 # I Compared 6 Python AI Agent Frameworks So You Don't Have To: LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK vs Smolagents vs Google ADK

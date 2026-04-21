@@ -17,6 +17,7 @@ sources:
   - "[[wiki/sources/mempalace-benchmarks-what-they-mean]]"
   - "[[wiki/sources/mempalace-give-your-ai-a-real-memory]]"
   - "[[wiki/sources/phase-transition-knowledge-graph-agent-memory]]"
+  - "[[wiki/sources/self-evolving-agent-architectures-explained]]"
 ---
 
 # Agent Memory
@@ -57,6 +58,8 @@ Designing agent memory for a production system requires thinking carefully about
 
 Recent sources in this corpus deepen the memory design debate along two axes: (1) local-first full-retention architectures versus summary-first managed memory services, and (2) graph connectivity quality as a hidden determinant of multi-hop memory usefulness.
 
+They also sharpen a conceptual distinction: some "self-evolving" systems improve their harness, while others improve their memory surface. That difference matters because the second category lives here — in how facts, preferences, procedures, and history are extracted, consolidated, and searched across sessions.
+
 ## Related Concepts
 
 - [[wiki/concepts/claude-md]] — the instruction memory layer
@@ -85,3 +88,4 @@ Recent sources in this corpus deepen the memory design debate along two axes: (1
 - [[wiki/sources/mempalace-benchmarks-what-they-mean]]
 - [[wiki/sources/mempalace-give-your-ai-a-real-memory]]
 - [[wiki/sources/phase-transition-knowledge-graph-agent-memory]]
+- [[wiki/sources/self-evolving-agent-architectures-explained]]

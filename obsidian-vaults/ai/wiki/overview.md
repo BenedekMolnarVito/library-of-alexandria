@@ -10,7 +10,7 @@ tags:
   - agentic-coding
   - knowledge-management
 created: 2026-04-18
-updated: 2026-04-20
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/karpathy-llm-wiki-future-personal-knowledge]]"
   - "[[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]]"
@@ -18,11 +18,16 @@ sources:
   - "[[wiki/sources/building-claude-code-boris-cherny]]"
   - "[[wiki/sources/mempalace-benchmarks-what-they-mean]]"
   - "[[wiki/sources/phase-transition-knowledge-graph-agent-memory]]"
+  - "[[wiki/sources/world-model-interpretive-boundary]]"
+  - "[[wiki/sources/mo-gawdat-next-ai-phase-positioning]]"
+  - "[[wiki/sources/claude-session-limit-management]]"
+  - "[[wiki/sources/software-stack-1-0-2-0-3-0]]"
+  - "[[wiki/sources/self-evolving-agent-architectures-explained]]"
 ---
 
 # AI Domain Overview
 
-This wiki tracks the AI landscape as of early 2026 — a pivotal moment when frontier models crossed the threshold from "impressive demos" into tools that are restructuring how software is written, how knowledge is managed, and how organizations operate. The 64 sources ingested represent a cross-section of practitioners, researchers, strategists, and builders who are living through this transition in real time.
+This wiki tracks the AI landscape as of early 2026 — a pivotal moment when frontier models crossed the threshold from "impressive demos" into tools that are restructuring how software is written, how knowledge is managed, and how organizations operate. The corpus now spans practitioners, researchers, strategists, and builders who are living through this transition in real time.
 
 ## The Central Thesis
 
@@ -37,6 +42,8 @@ The pattern appears as:
 
 All of these are instances of the same architecture: **AI owns and maintains a plain-text artifact; humans supply raw material and judgment.**
 
+The newer world-model material extends this pattern from personal knowledge to organizations: the company-scale analog of the LLM wiki is a system that continuously tracks reality, but only works if it keeps the line between retrieval and judgment visible.
+
 ## The Landscape in Five Themes
 
 ### 1. Agentic Coding Has Crossed the Threshold
@@ -47,9 +54,11 @@ The critical bottleneck is no longer model capability but **first-pass reliabili
 
 **Karpathy's shift** — from 80% manual to 80% agent-driven coding in December 2025 — is treated as a signal event. It validated that frontier engineers have found a workflow where agents are genuinely productive, not just occasionally helpful.
 
+Two newer framings sharpen this theme. Jared Hatfield's Software 3.0 essay clarifies that AI-written code is still Software 1.0 — the shift is that language-directed systems now orchestrate code, models, and tools. And the career-focused writing around "coder to architect" captures the labor implication: implementation is getting cheaper, so architecture, evaluation, and business judgment are getting more valuable.
+
 ### 2. The LLM Wiki Pattern Is the Library of Alexandria's Own Foundation
 
-Eight of the 64 sources directly discuss, implement, or extend Karpathy's LLM wiki pattern. This is significant: the source corpus is documenting the same architecture as the system it is being ingested into. Key implementations:
+A substantial slice of the corpus directly discusses, implements, or extends Karpathy's LLM wiki pattern. This is significant: the source corpus is documenting the same architecture as the system it is being ingested into. Key implementations:
 
 - **Balu Kosuri** built a complete implementation in 3 Cursor prompts and open-sourced it
 - **Cole Medin** built a self-evolving memory system (context-portal) that feeds the codebase's own documentation back to the AI
@@ -82,6 +91,8 @@ The fix requires three layers:
 
 MCP (Model Context Protocol) is a stopgap — it wraps human-friendly APIs for agent consumption but adds latency. The real solution is infrastructure built from scratch for agent speed.
 
+At the workflow level, context management is the same problem in miniature. Nate Herk's session-limit playbook shows that even million-token windows degrade long before their ceiling if the session accumulates too much noise. Sub-agents, rewinds, handoffs, and disciplined write-back are becoming part of the agent engineer's core operating model.
+
 ### 5. Strategic Disruption: The $285B SaaS Reckoning
 
 Wall Street's 2026 sell-off of SaaS middleware stocks was, per Nate B Jones, **correct**: AI agents can now replace the routine data-pipeline, form-processing, and dashboard-generating SaaS products that make up the bulk of the $285B market.
@@ -94,6 +105,8 @@ Amazon's story is the sharpest case study: after a December 2024 production outa
 3. **Relationship capital** (trust networks that AI cannot replicate)
 4. **Synthetic data and evaluation** (the training layer)
 5. **Orchestration and governance** (managing agents themselves)
+
+Mo Gawdat's macro view widens the aperture beyond SaaS. His warning is that the next few years are not only about product disruption but about labor-market and institutional instability. Even if his timelines prove too aggressive, the underlying point aligns with the rest of this corpus: people who can combine AI leverage with ethics, skepticism, and fast strategic adaptation will be in a much better position than people who treat AI as a passive autocomplete layer.
 
 ## Key People in This Corpus
 

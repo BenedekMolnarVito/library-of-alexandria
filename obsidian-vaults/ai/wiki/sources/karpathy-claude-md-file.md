@@ -10,7 +10,7 @@ tags:
   - workflow
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/What Is Andrej Karpathy's CLAUDE.md File.md]]"
+raw: "[[raw/What Is Andrej Karpathy’s CLAUDE.md File.md]]"
 ---
 
 # What Is Andrej Karpathy's CLAUDE.md File?

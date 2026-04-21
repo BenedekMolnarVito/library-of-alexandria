@@ -10,7 +10,7 @@ tags:
   - eval-driven
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/I Turned Andrej Karpathy's Autoresearch Into a Universal Skill.md]]"
+raw: "[[raw/I Turned Andrej Karpathy’s Autoresearch Into a Universal Skill.md]]"
 ---
 
 # I Turned Andrej Karpathy's Autoresearch Into a Universal Skill

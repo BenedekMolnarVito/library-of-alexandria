@@ -7,7 +7,7 @@ tags:
   - dedup
   - raw-sources
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/karpathy-autoresearch-universal-skill]]"
   - "[[wiki/sources/karpathy-10x-claude-code-llm-wiki]]"
@@ -34,7 +34,9 @@ These `raw/` files are clear duplicate clips of already-ingested topics and are 
 | `I Turned Andrej Karpathy’s Autoresearch Into a Universal Skill.md` | [[wiki/sources/karpathy-autoresearch-universal-skill]] |
 | `I Turned Two Macs Into an 80B AI Cluster for Free — Exo Is the Open-Source Tool You’ve Been Waiting….md` | [[wiki/sources/two-macs-80b-ai-cluster-exo]] |
 | `I used Karpathy’s LLM Wiki to build a knowledge base that maintains itself with AI.md` | [[wiki/sources/karpathy-llm-wiki-self-maintaining-knowledge-base]] |
+| `I Built Self-Evolving Claude Code Memory w Karpathy's LLM Knowledge Bases 1.md` | [[wiki/sources/self-evolving-claude-code-memory-karpathy-llm-knowledge-bases]] |
 | `Paperclip AI Open source platform focused on turning ai agents into a company.md` | [[wiki/sources/paperclip-ai-governance-platform]] |
+| `Claude Code + Karpathy's NEW Self-Evolving System = 10x Code Generation.md` | [[wiki/sources/karpathy-llm-wiki-self-maintaining-knowledge-base]] |
 | `What Is Andrej Karpathy’s CLAUDE.md File.md` | [[wiki/sources/karpathy-claude-md-file]] |
 | `Why Andrej Karpathy’s “LLM Wiki” is the Future of Personal Knowledge.md` | [[wiki/sources/karpathy-llm-wiki-future-personal-knowledge]] |
 

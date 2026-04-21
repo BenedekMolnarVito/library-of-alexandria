@@ -10,7 +10,7 @@ tags:
   - tensor-parallelism
 created: 2026-04-28
 updated: 2026-04-28
-raw: "[[raw/I Turned Two Macs Into an 80B AI Cluster for Free — Exo Is the Open-Source Tool You've Been Waiting….md]]"
+raw: "[[raw/I Turned Two Macs Into an 80B AI Cluster for Free — Exo Is the Open-Source Tool You’ve Been Waiting….md]]"
 ---
 
 # I Turned Two Macs Into an 80B AI Cluster for Free — Exo Is the Open-Source Tool You've Been Waiting For

@@ -9,11 +9,12 @@ tags:
   - specialization
   - agent-patterns
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/claude-code-skills-got-better]]"
   - "[[wiki/sources/karpathy-autoresearch-universal-skill]]"
   - "[[wiki/sources/master-claude-code-skills]]"
+  - "[[wiki/sources/eight-claude-skills-meta-skills]]"
 ---
 
 # skill.md
@@ -53,6 +54,8 @@ skill.md files represent a form of **institutionalized expertise** — turning t
 
 Claude Code's built-in skills demonstrated immediate quality improvements in tasks like sequential thinking, self-consistency, and multi-step reasoning. User-created skills extend this to domain-specific workflows. The practical discipline is: when you find yourself giving the same instructions to an agent repeatedly across tasks, extract them into a skill.md.
 
+Recent ecosystem practice adds a second layer: **meta skills**. These are not tied to one business workflow; they improve how the agent plans, interviews for missing context, sharpens prompts, checks facts, or packages output. This makes skill.md not just a repository of specialized procedures, but a way to encode reusable thinking scaffolds.
+
 The relationship with [[soul-md]] is worth noting: skill.md encodes *how* to do things; soul.md encodes *who* the agent is. Both augment CLAUDE.md's foundational behavioral constraints, but from different directions — expertise versus identity.
 
 ## Related Concepts
@@ -74,3 +77,4 @@ The relationship with [[soul-md]] is worth noting: skill.md encodes *how* to do 
 - [[wiki/sources/claude-code-skills-got-better]]
 - [[wiki/sources/karpathy-autoresearch-universal-skill]]
 - [[wiki/sources/master-claude-code-skills]]
+- [[wiki/sources/eight-claude-skills-meta-skills]]

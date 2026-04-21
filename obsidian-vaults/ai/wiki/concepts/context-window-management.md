@@ -9,11 +9,12 @@ tags:
   - claude-code
   - optimization
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-21
 sources:
   - "[[wiki/sources/cut-claude-code-output-tokens-75-percent]]"
   - "[[wiki/sources/karpathy-claude-md-file]]"
   - "[[wiki/sources/karpathy-autoresearch-universal-skill]]"
+  - "[[wiki/sources/claude-session-limit-management]]"
 ---
 
 # Context Window Management
@@ -38,6 +39,8 @@ Context window management operates at three levels:
 
 **Autoresearch sliding window**: Balu Kosuri's autoresearch skill includes context window management as one of seven advanced features. For optimization loops that may run dozens of iterations, naively keeping every iteration in context would overflow the window by run 15–20. The sliding window keeps the last N iterations in full detail (N tuned to the model's context size and iteration verbosity), summarizes older iterations into compact records (mutation applied, score achieved, key insight), and discards detailed records beyond a configurable horizon.
 
+**Session handoff and rewind discipline**: Nate Herk's session-management playbook adds a more operational layer: use `/re` to drop failed branches of the conversation, treat session handoffs as normal artifacts, and clear or chain sessions before context rot becomes the dominant problem. The point is not just saving tokens; it is preserving model quality by keeping the active window sharp.
+
 ## Why It Matters
 
 Context window limits are a hard constraint, not an engineering preference. An agent that fills its context window mid-task and then loses access to its instructions, the task specification, or critical intermediate results produces failures that are hard to diagnose. The symptoms — the agent repeating itself, forgetting constraints, making choices inconsistent with earlier decisions — look like model quality failures but are actually context management failures.
@@ -56,6 +59,7 @@ A practical context management checklist for agentic tasks:
 4. Implement explicit context trimming for loops running more than 10 iterations
 5. Monitor token usage and set alerts at 60–70% of the context window size
 6. Summarize completed task phases before beginning new ones
+7. Treat sub-agents and fresh sessions as standard workflow tools, not last-resort resets
 
 ## Related Concepts
 
@@ -77,3 +81,4 @@ A practical context management checklist for agentic tasks:
 - [[wiki/sources/cut-claude-code-output-tokens-75-percent]]
 - [[wiki/sources/karpathy-claude-md-file]]
 - [[wiki/sources/karpathy-autoresearch-universal-skill]]
+- [[wiki/sources/claude-session-limit-management]]
