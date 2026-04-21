@@ -3,7 +3,7 @@ title: "AI Wiki Index"
 type: index
 domain: ai
 created: 2026-04-18
-updated: 2026-04-20
+updated: 2026-04-21
 sources:
   - "[[wiki/overview]]"
 ---
@@ -245,3 +245,5 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 
 - [[wiki/analyses/transformative-insights-2026]] — Five core insights reshaping AI: tool-call bottleneck, local model viability, LLM wiki knowledge compounding, SaaS disruption, intelligence arbitrage (2026-04)
 - [[wiki/analyses/raw-dedup-candidates-2026-04-20]] — Tagged duplicate raw clips and mapped canonical source pages (2026-04)
+- [[wiki/analyses/mempalace-agentic-systems-research-2026-04-21]] — Research synthesis of MemPalace for LLM agentic systems: applications, benefits, risks, and scalable implementation guidance (2026-04)
+- [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]] — Research synthesis on applying the Karpathy Loop to codebases, including fit criteria, benefits, risks, and a recommended MVP for this repository (2026-04)

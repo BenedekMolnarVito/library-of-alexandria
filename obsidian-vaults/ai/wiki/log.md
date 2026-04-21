@@ -3,7 +3,7 @@ title: "AI Wiki Log"
 type: log
 domain: ai
 created: 2026-04-18
-updated: 2026-04-20
+updated: 2026-04-21
 sources:
   - "[[wiki/index]]"
 ---
@@ -119,3 +119,23 @@ Ran health/lint checks after ingest and dedup tagging (177 wiki pages scanned).
 - ⚠️ Contradiction callouts remain in [[wiki/entities/openclaw]] and [[wiki/entities/cline]] (pre-existing, unresolved)
 
 Pages touched: [[wiki/log]]
+
+---
+
+## [2026-04-21] query | MemPalace Research Synthesis
+
+Completed a thorough MemPalace analysis covering all related AI-vault sources, upstream MemPalace repository docs, and external literature on long-term memory benchmarks, retrieval architecture, and cognitive memory techniques.
+
+Result: Saved as [[wiki/analyses/mempalace-agentic-systems-research-2026-04-21]].
+
+Pages touched: [[wiki/analyses/mempalace-agentic-systems-research-2026-04-21]], [[wiki/index]], [[wiki/log]]
+
+---
+
+## [2026-04-21] query | Karpathy Loop for Codebases Research
+
+Completed a research synthesis on how to apply the Karpathy Loop to a general codebase, grounded in Karpathy's original autoresearch design, later generalizations, agent harness/evaluator patterns, and the current structure of this repository.
+
+Result: Saved as [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]].
+
+Pages touched: [[wiki/analyses/karpathy-loop-for-codebases-research-2026-04-21]], [[wiki/index]], [[wiki/log]]
