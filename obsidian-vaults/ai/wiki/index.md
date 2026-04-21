@@ -3,7 +3,9 @@ title: "AI Wiki Index"
 type: index
 domain: ai
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-20
+sources:
+  - "[[wiki/overview]]"
 ---
 
 # AI Wiki Index
@@ -15,6 +17,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ## Overview
 
 - [[wiki/overview]] — High-level overview of the AI domain and current landscape
+- [[wiki/log]] — Chronological record of ingest, update, query, and lint actions
 
 ## Entities
 
@@ -39,6 +42,8 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/entities/daniel-vaughan]] — Benchmarked Gemma 4 + Codex CLI; finding: quality > speed for agentic coding
 - [[wiki/entities/nick-saraev]] — Applied autoresearch pattern to text-to-image; 32→40/40 in 12 minutes
 - [[wiki/entities/danish-sofi]] — Cancelled $100/month Claude subscription after trying GLM 5.1
+- [[wiki/entities/milla-jovovich]] — Public co-creator and architectural lead voice behind MemPalace
+- [[wiki/entities/ben-sigman]] — Engineer credited across sources for MemPalace implementation
 
 ### Organizations
 
@@ -78,6 +83,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/entities/llama-cpp]] — C++ inference engine for CPU/Apple Silicon; foundation of local AI
 - [[wiki/entities/mcp]] — Anthropic's Model Context Protocol; open standard for AI tool connectivity
 - [[wiki/entities/cline]] — Open-source VS Code extension for agentic coding; model-agnostic
+- [[wiki/entities/mempalace]] — Local-first AI memory system using spatial organization and layered recall
 
 ## Concepts
 
@@ -129,6 +135,12 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/concepts/prediction-markets]] — Market-based information aggregation; AI-automated arbitrage
 - [[wiki/concepts/context-window-management]] — Token efficiency: Caveman plugin, CLAUDE.md length, sliding windows
 
+### Memory & Graph Dynamics
+- [[wiki/concepts/memory-palace-architecture]] — Spatially organized agent memory using structured retrieval scopes
+- [[wiki/concepts/aaak-dialect]] — Compact memory encoding format and its efficiency/accuracy tradeoff
+- [[wiki/concepts/local-first-ai-memory]] — User-owned, on-device memory infrastructure pattern
+- [[wiki/concepts/graph-percolation-threshold]] — Connectivity tipping point for graph memory usefulness
+
 ## Sources
 
 ### Karpathy / LLM Wiki Cluster
@@ -176,6 +188,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/gemma-4-e4b-vs-qwen-3-5-4b-comparison]] — Gemma 4 4B vs Qwen3.5 4B head-to-head (2026-04)
 - [[wiki/sources/gemma-4-open-source-ai-drop]] — Alex Dunlop: Gemma 4 open-source AI drop overview (2026-04)
 - [[wiki/sources/gemma-4-local-model-codex-cli]] — Daniel Vaughan: Gemma 4 in Codex CLI; quality > speed for agentic coding (2026-04)
+- [[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]] — TurboQuant MoE compression for 120B+ local inference on Apple Silicon (2026-04)
 - [[wiki/sources/glm-5-1-beats-gpt-5-4-claude-opus]] — GLM 5.1 benchmark vs. GPT-5.4 and Claude Opus (2026-04)
 - [[wiki/sources/glm-5-1-free-claude-subscription-replacement]] — Danish Sofi: GLM 5.1 replaced $100/month Claude subscription (2026-04)
 - [[wiki/sources/step-3-5-flash-196b-open-source-model]] — StepFun Step-3.5-Flash 196B MoE model release (2026-04)
@@ -207,6 +220,19 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/death-of-traditional-etl-ai-agents]] — AI agents replacing traditional ETL pipelines (2026-04)
 - [[wiki/sources/chandra-ocr-2-benchmark]] — Datalab Chandra OCR 2: benchmark that killed commercial OCR (2026-04)
 - [[wiki/sources/temptation-of-nearly-knowing]] — The epistemic danger of LLMs appearing to know more than they do (2026-04)
+- [[wiki/sources/phase-transition-knowledge-graph-agent-memory]] — Network-science view of GraphRAG phase transitions and connectivity thresholds (2026-04)
+
+### MemPalace / AI Memory Cluster
+- [[wiki/sources/mempalace-give-your-ai-a-real-memory]] — Introductory local-first memory framing and setup (2026-04)
+- [[wiki/sources/giving-your-ai-a-memory-introduction-mempalace]] — Technical walkthrough of MemPalace architecture and MCP usage (2026-04)
+- [[wiki/sources/mempalace-96-6-recall-zero-api-calls]] — Strong-form argument for raw-text-first memory retrieval (2026-04)
+- [[wiki/sources/mempalace-benchmarks-what-they-mean]] — Critical analysis of MemPalace benchmark interpretation and tradeoffs (2026-04)
+- [[wiki/sources/mempalace-viral-22k-stars-honest-setup]] — Practical setup-focused review with maturity caveats (2026-04)
+- [[wiki/sources/from-hollywood-to-github-milla-jovovich-mempalace]] — Origin narrative and architecture summary (2026-04)
+- [[wiki/sources/rise-of-memory-palaces-mempalace-disruption]] — Market-position framing vs managed memory platforms (2026-04)
+- [[wiki/sources/death-of-ephemeral-context-aaak-dialect]] — AAAK-focused architectural teardown and future directions (2026-04)
+- [[wiki/sources/resident-eval-mempalace-first-glimpse]] — Early systems-level review of MemPalace memory model (2026-04)
+- [[wiki/sources/ayona-openclaw-vs-mempalace-benchmark]] — BM25 vs MemPalace benchmark comparison on LongMemEval (2026-04)
 
 ### Vercel & UI Generation
 - [[wiki/sources/vercel-v0-d0-agent-lessons]] — Malte Ubl: lessons from building v0 and d0 at Vercel (2026-04)
@@ -218,3 +244,4 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ## Analyses
 
 - [[wiki/analyses/transformative-insights-2026]] — Five core insights reshaping AI: tool-call bottleneck, local model viability, LLM wiki knowledge compounding, SaaS disruption, intelligence arbitrage (2026-04)
+- [[wiki/analyses/raw-dedup-candidates-2026-04-20]] — Tagged duplicate raw clips and mapped canonical source pages (2026-04)

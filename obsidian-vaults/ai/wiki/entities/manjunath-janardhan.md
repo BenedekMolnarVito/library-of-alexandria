@@ -7,9 +7,10 @@ tags:
   - practitioner
   - distributed-inference
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-20
 sources:
   - "[[wiki/sources/two-macs-80b-ai-cluster-exo]]"
+  - "[[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]"
 ---
 
 # Manjunath Janardhan
@@ -26,6 +27,8 @@ Janardhan operates as an independent practitioner and content creator in the loc
 
 **Practical Distributed Inference Guide**: By documenting the specific setup — hardware, configuration, performance metrics — Janardhan's work provides a reproducible template for others who want to achieve similar results with available consumer hardware.
 
+**TurboQuant MoE Compression on Apple Silicon**: Janardhan also documented extending TurboQuant to MoE models, including GPT-OSS-120B-class and Qwen3.5-122B-class setups on 64GB M4 Max systems. The reported results argue that quantization strategy and fused kernels can push local 100B+ model serving into practical interactive territory. (Source: [[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]])
+
 ## Role in AI Landscape
 
 Janardhan's two-Mac cluster demonstration is a data point in the larger narrative about local AI capability — specifically, the question of whether open models can match cloud AI performance on consumer hardware. By achieving 70–80 tok/s on an 80B model with two Macs, his work helps establish the practical ceiling for hobbyist distributed inference and demonstrates that the gap between cloud and local is closing for inference workloads.
@@ -33,5 +36,5 @@ Janardhan's two-Mac cluster demonstration is a data point in the larger narrativ
 ## Connections
 
 - **Related entities**: [[wiki/entities/exo-labs]], [[wiki/entities/exo]], [[wiki/entities/qwen3]], [[wiki/entities/ollama]]
-- **Key concepts**: [[wiki/concepts/distributed-inference]], [[wiki/concepts/local-ai]], [[wiki/concepts/self-hosted-ai]]
-- **Sources**: [[wiki/sources/two-macs-80b-ai-cluster-exo]]
+- **Key concepts**: [[wiki/concepts/distributed-inference]], [[wiki/concepts/local-ai-inference]], [[wiki/concepts/local-first-ai-memory]]
+- **Sources**: [[wiki/sources/two-macs-80b-ai-cluster-exo]], [[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]

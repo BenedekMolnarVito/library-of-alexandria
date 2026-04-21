@@ -9,11 +9,14 @@ tags:
   - persistence
   - agent-patterns
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-20
 sources:
   - "[[wiki/sources/anthropic-openai-memory-context-portability]]"
   - "[[wiki/sources/real-problem-ai-agents-clarity-of-intent]]"
   - "[[wiki/sources/self-evolving-claude-code-memory-karpathy-llm-knowledge-bases]]"
+  - "[[wiki/sources/mempalace-benchmarks-what-they-mean]]"
+  - "[[wiki/sources/mempalace-give-your-ai-a-real-memory]]"
+  - "[[wiki/sources/phase-transition-knowledge-graph-agent-memory]]"
 ---
 
 # Agent Memory
@@ -52,6 +55,8 @@ The [[llm-wiki]] represents a particularly elegant memory architecture for knowl
 
 Designing agent memory for a production system requires thinking carefully about four dimensions: what needs to be remembered (not everything is worth storing), where it should be stored (matching the memory type to the information type), when it should be written (at session end? after every task? continuously?), and how it should be retrieved (reading the full file, semantic search, keyword search). Getting these wrong produces agents that are either amnesiac (under-memory) or confused by stale/contradictory stored beliefs (over-memory without curation).
 
+Recent sources in this corpus deepen the memory design debate along two axes: (1) local-first full-retention architectures versus summary-first managed memory services, and (2) graph connectivity quality as a hidden determinant of multi-hop memory usefulness.
+
 ## Related Concepts
 
 - [[wiki/concepts/claude-md]] — the instruction memory layer
@@ -61,15 +66,22 @@ Designing agent memory for a production system requires thinking carefully about
 - [[wiki/concepts/rag-vs-llm-wiki]] — comparing memory retrieval approaches
 - [[wiki/concepts/knowledge-accumulation]] — the compounding property of good memory
 - [[wiki/concepts/context-window-management]] — managing the in-context memory layer
+- [[wiki/concepts/memory-palace-architecture]] — structured spatial memory organization
+- [[wiki/concepts/aaak-dialect]] — compressed context representation tradeoffs
+- [[wiki/concepts/graph-percolation-threshold]] — connectivity threshold effects in memory graphs
 
 ## Key Entities
 
 - [[wiki/entities/anthropic]] — memory as first-class agent feature
 - [[wiki/entities/openai]] — memory as user service
 - [[wiki/entities/nate-b-jones]] — "memory needs to be built into the architecture"
+- [[wiki/entities/mempalace]] — local-first full-retention memory design
 
 ## Sources
 
 - [[wiki/sources/anthropic-openai-memory-context-portability]]
 - [[wiki/sources/real-problem-ai-agents-clarity-of-intent]]
 - [[wiki/sources/self-evolving-claude-code-memory-karpathy-llm-knowledge-bases]]
+- [[wiki/sources/mempalace-benchmarks-what-they-mean]]
+- [[wiki/sources/mempalace-give-your-ai-a-real-memory]]
+- [[wiki/sources/phase-transition-knowledge-graph-agent-memory]]

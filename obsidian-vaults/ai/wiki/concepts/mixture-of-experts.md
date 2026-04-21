@@ -9,11 +9,12 @@ tags:
   - local-inference
   - moe
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-20
 sources:
   - "[[wiki/sources/gemma-4-vllm-vs-ollama-blackwell-benchmarks]]"
   - "[[wiki/sources/two-macs-80b-ai-cluster-exo]]"
   - "[[wiki/sources/gemma-4-local-model-codex-cli]]"
+  - "[[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]"
 ---
 
 # Mixture of Experts
@@ -55,22 +56,25 @@ MoE also changes the distributed inference calculation. A 27B MoE model that act
 
 From a practical deployment perspective, MoE models require careful framework support. Ollama handles MoE models transparently; vLLM has specialized MoE support for GPU inference; llama.cpp handles them efficiently on CPU. The main practical consideration is that total model weights still need to fit in memory (even if only a fraction is activated per token), so a 27B MoE model still requires roughly 27B × (bytes per parameter) of memory — though in 4-bit quantization this is approximately 14GB, manageable on most Apple Silicon hardware.
 
+New benchmark reports in this corpus add another practical point: MoE viability on consumer hardware depends heavily on quantization method quality and low-level kernel engineering, not only on parameter count and architecture labels.
+
 ## Related Concepts
 
 - [[wiki/concepts/local-ai-inference]] — the application context where MoE matters most
 - [[wiki/concepts/local-hard-takeoff]] — MoE as the technical enabler
 - [[wiki/concepts/distributed-inference]] — MoE models distribute efficiently
 - [[wiki/concepts/intelligence-arbitrage]] — MoE changes the tier routing calculation
-- [[wiki/concepts/model-quantization]] — combined with MoE for maximum efficiency
+- [[wiki/concepts/local-first-ai-memory]] — infrastructure and deployment constraints around local operation
 
 ## Key Entities
 
 - [[wiki/entities/google-deepmind]] — Gemma 4 27B MoE
-- [[wiki/entities/mistral-ai]] — Mixtral, early MoE at scale
-- [[wiki/entities/alibaba]] — Qwen3-80B MoE
+- [[wiki/entities/qwen3]] — Qwen MoE family and local inference relevance
+- [[wiki/entities/manjunath-janardhan]] — Apple Silicon MoE quantization benchmarks
 
 ## Sources
 
 - [[wiki/sources/gemma-4-vllm-vs-ollama-blackwell-benchmarks]]
 - [[wiki/sources/two-macs-80b-ai-cluster-exo]]
 - [[wiki/sources/gemma-4-local-model-codex-cli]]
+- [[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]

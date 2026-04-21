@@ -9,12 +9,13 @@ tags:
   - privacy
   - ollama
 created: 2026-04-28
-updated: 2026-04-28
+updated: 2026-04-20
 sources:
   - "[[wiki/sources/gemma-4-local-model-codex-cli]]"
   - "[[wiki/sources/two-macs-80b-ai-cluster-exo]]"
   - "[[wiki/sources/ollama-claude-code-free]]"
   - "[[wiki/sources/openclaw-gemma4-free-private-ai]]"
+  - "[[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]"
 ---
 
 # Local AI Inference
@@ -54,6 +55,8 @@ The Claude Code + Ollama integration exemplifies the practical value: developers
 
 OpenClaw (Cline with local model support) and similar open-source Claude Code alternatives enable fully local agentic coding workflows — no cloud API required. This enables experimentation without cost constraints, which is particularly valuable for [[karpathy-loop]] optimization runs that may require hundreds of iterations.
 
+Recent MoE quantization work in this corpus extends the local feasibility frontier further: 120B+ models are increasingly constrained by compression quality and kernel implementation detail, not only by headline model size.
+
 ## Related Concepts
 
 - [[wiki/concepts/distributed-inference]] — extending local inference across multiple devices
@@ -64,7 +67,7 @@ OpenClaw (Cline with local model support) and similar open-source Claude Code al
 
 ## Key Entities
 
-- [[wiki/entities/apple]] — Apple Silicon hardware for local inference
+- [[wiki/entities/manjunath-janardhan]] — practical local 80B and 120B+ inference demonstrations
 - [[wiki/entities/google-deepmind]] — Gemma 4 as a top local model
 
 ## Sources
@@ -73,3 +76,4 @@ OpenClaw (Cline with local model support) and similar open-source Claude Code al
 - [[wiki/sources/two-macs-80b-ai-cluster-exo]]
 - [[wiki/sources/ollama-claude-code-free]]
 - [[wiki/sources/openclaw-gemma4-free-private-ai]]
+- [[wiki/sources/turboquant-moe-122b-macbook-apple-silicon]]

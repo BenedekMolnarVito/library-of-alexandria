@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution.md",
+                "file": "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution"
+              "title": "Andrej Karpathy Just 10x’d Everyone’s Claude Code"
+            }
+          },
+          {
+            "id": "cfda11959bc28cc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +195,19 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "d2acab3085dac464",
+  "active": "cfda11959bc28cc1",
   "lastOpenFiles": [
-    "raw/The Phase Transition in Your Knowledge Graph Why Agent Memory Suddenly “Clicks”.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/sources/karpathy-10x-claude-code-llm-wiki.md",
+    "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
+    "wiki/sources/karpathy-autoresearch-universal-skill.md",
+    "raw/A Guide to Andrej Karpathy’s AutoResearch Automating ML with AI Agents.md",
+    "wiki/sources/100-hours-claude-code-vs-antigravity.md",
+    "wiki/sources/how-to-build-claude-agent-teams.md",
+    "wiki/sources/300-dollars-auto-research-karpathy-loop.md",
     "raw/From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution.md",
+    "raw/The Phase Transition in Your Knowledge Graph Why Agent Memory Suddenly “Clicks”.md",
     "raw/The Rise of “Memory Palaces” Why Milla Jovovich’s MemPalace is Disrupting the AI Memory Space.md",
     "raw/Ayona (OpenClaw) vs Milla (MemPalace) I Challenged a Specialized Memory Library With a 30-Year-Old….md",
     "raw/MemPalace Milla Jovovich’s AI Memory System — What the Benchmarks Actually Mean.md",
@@ -196,19 +220,10 @@
     "raw/Paperclip AI Open source platform focused on turning ai agents into a company.md",
     "raw/How I run 122B-parameter LLMs on a MacBook — outperforming MXFP4 and standard quantization on Apple….md",
     "raw/Ön a következőt mondta I want to use my local mod.md",
-    "raw/A Guide to Andrej Karpathy’s AutoResearch Automating ML with AI Agents.md",
     "Névtelen.base",
     "raw/Claude Code + Karpathy's Obsidian = New Meta.md",
     "raw/Building Claude Code with Boris Cherny.md",
     "raw/Lessons from building Vercel v0 and the d0 agent - The Pragmatic Summit.md",
-    "raw/Uber Leading engineering through an agentic shift - The Pragmatic Summit.md",
-    "raw/From IDEs to AI Agents with Steve Yegge.md",
-    "raw/Product-minded engineers in an AI-native world.md",
-    "raw/Chip Huyen Building when it feels like there's nothing left to build - The Pragmatic Summit.md",
-    "raw/DHH’s new way of writing code.md",
-    "raw/Claude as a Dungeon Master -Let's check it out 1.md",
-    "raw/DHH’s new way of writing code 1.md",
-    "raw/Claude as a Dungeon Master -Let's check it out.md",
     "Névtelen.canvas",
     "wiki/sources",
     "wiki/entities",

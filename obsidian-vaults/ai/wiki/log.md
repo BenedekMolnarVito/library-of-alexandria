@@ -3,7 +3,9 @@ title: "AI Wiki Log"
 type: log
 domain: ai
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-20
+sources:
+  - "[[wiki/index]]"
 ---
 
 # AI Wiki Log
@@ -82,3 +84,38 @@ Synthesized query from the 63-source corpus, identifying five core insights resh
 Result: Saved as [[wiki/analyses/transformative-insights-2026]].
 
 Pages touched: [[wiki/index]], [[wiki/analyses/transformative-insights-2026]]
+
+---
+
+## [2026-04-20] ingest | MemPalace + Local MoE Batch (12 New Sources)
+
+Processed 12 net-new raw sources focused on MemPalace/agent-memory architecture and Apple Silicon MoE quantization.
+
+- Created 12 source summary pages under `wiki/sources/`
+- Created new entity pages: [[wiki/entities/mempalace]], [[wiki/entities/milla-jovovich]], [[wiki/entities/ben-sigman]]
+- Created new concept pages: [[wiki/concepts/memory-palace-architecture]], [[wiki/concepts/aaak-dialect]], [[wiki/concepts/local-first-ai-memory]], [[wiki/concepts/graph-percolation-threshold]]
+- Updated existing pages to integrate new evidence: [[wiki/concepts/agent-memory]], [[wiki/concepts/local-ai-inference]], [[wiki/concepts/mixture-of-experts]], [[wiki/entities/manjunath-janardhan]], [[wiki/overview]], [[wiki/index]]
+
+Pages touched: [[wiki/index]], [[wiki/overview]], [[wiki/concepts/agent-memory]], [[wiki/concepts/local-ai-inference]], [[wiki/concepts/mixture-of-experts]], [[wiki/entities/manjunath-janardhan]], [[wiki/entities/mempalace]], [[wiki/entities/milla-jovovich]], [[wiki/entities/ben-sigman]]
+
+---
+
+## [2026-04-20] update | Tagged Duplicate Raw Clips for Deletion
+
+Tagged clear duplicate raw clips as deletion candidates without modifying files in `raw/`. Added canonical mappings from duplicate raw filenames to already-ingested source pages, plus one non-source conversation clip candidate.
+
+Pages touched: [[wiki/analyses/raw-dedup-candidates-2026-04-20]], [[wiki/index]]
+
+---
+
+## [2026-04-20] lint | Health Check After Ingest
+
+Ran health/lint checks after ingest and dedup tagging (177 wiki pages scanned).
+
+- ✅ No orphan wiki pages detected
+- ✅ No missing non-raw wikilinks in touched files from this ingest batch
+- ✅ Index updated with all newly created source/entity/concept/analysis pages
+- ⚠️ Pre-existing global link debt remains in older pages (885 unresolved links to non-existent concepts/entities), outside this ingest scope
+- ⚠️ Contradiction callouts remain in [[wiki/entities/openclaw]] and [[wiki/entities/cline]] (pre-existing, unresolved)
+
+Pages touched: [[wiki/log]]

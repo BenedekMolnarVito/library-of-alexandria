@@ -10,12 +10,14 @@ tags:
   - agentic-coding
   - knowledge-management
 created: 2026-04-18
-updated: 2026-04-18
+updated: 2026-04-20
 sources:
   - "[[wiki/sources/karpathy-llm-wiki-future-personal-knowledge]]"
   - "[[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]]"
   - "[[wiki/sources/wall-street-285b-ai-agents-review]]"
   - "[[wiki/sources/building-claude-code-boris-cherny]]"
+  - "[[wiki/sources/mempalace-benchmarks-what-they-mean]]"
+  - "[[wiki/sources/phase-transition-knowledge-graph-agent-memory]]"
 ---
 
 # AI Domain Overview
@@ -113,11 +115,17 @@ Amazon's story is the sharpest case study: after a December 2024 production outa
 > [!question] Open Question: When does local hard takeoff actually arrive?
 > Gemma 4's tool-calling leap (6.6%→86.4%) happened in one model generation. If the next generation closes the remaining gap on complex reasoning, local inference becomes the default for most coding tasks. The question is timing and which benchmarks to trust.
 
+> [!question] Open Question: Which agent memory architecture wins in practice?
+> New sources around MemPalace sharpen the design tradeoff between summary-first managed memory and local full-retention memory. The unresolved question is where the durable frontier sits across accuracy, cost, privacy, and multi-device operability.
+
 > [!question] Open Question: What is the right memory architecture for production agents?
 > Anthropic and OpenAI have different philosophies. SOUL.md + markdown files is the practitioner's grassroots solution. Context-portal is a codebase-specific implementation. No consensus on the right architecture for long-running agents with months of accumulated context.
 
 > [!question] Open Question: Is dark code a solvable problem?
 > Amazon's spec-driven mandate helps but doesn't eliminate the problem. Karpathy admits that even with CLAUDE.md, failure modes don't fully go away. The deeper question is whether AI-written code will ever be as auditable as human-written code.
+
+> [!question] Open Question: What minimum graph connectivity is needed before GraphRAG memory is net-useful?
+> The percolation-threshold framing suggests some graph memories underperform simply because they have not crossed a connectivity threshold yet. The practical implication is to track connectivity metrics, not just QA accuracy.
 
 > [!question] Open Question: When does agent-native infrastructure replace human-speed APIs?
 > Nate B Jones argues MCP is a stopgap and the real fix requires branchFS, persistent containers, and shared KV caches. But these require significant platform investment. Timeline unclear.
