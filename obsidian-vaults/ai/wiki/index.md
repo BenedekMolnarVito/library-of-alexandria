@@ -164,15 +164,20 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/karpathy-llm-wiki-future-personal-knowledge]] — evoailabs: theoretical deep-dive + ecosystem survey (2026-04)
 - [[wiki/sources/karpathy-claude-md-file]] — What Karpathy's CLAUDE.md file does + Forrest Chang's 60-line distillation (2026-04)
 - [[wiki/sources/karpathy-autoresearch-universal-skill]] — Balu Kosuri: autoresearch → universal prompt optimization skill (2026-04)
+- [[wiki/sources/karpathy-fix-agents-markdown]] — Karpathy's single-markdown fix for sycophantic agents; readable guardrails over mega-prompts (2026-04)
 - [[wiki/sources/300-dollars-auto-research-karpathy-loop]] — Nate B Jones: $300 hardware build + Karpathy Loop + SOUL.md (2026-04)
 - [[wiki/sources/claude-code-karpathy-obsidian-new-meta]] — Meta discussion of Karpathy Obsidian pattern as new workflow (2026-04)
+- [[wiki/sources/claude-code-karpathy-self-evolving-10x]] — WorldofAI: LLM wiki architecture + Claude Code integration for 10x code generation (2026-04)
 - [[wiki/sources/self-evolving-claude-code-memory-karpathy-llm-knowledge-bases]] — Cole Medin: context-portal self-evolving memory system (2026-04)
 - [[wiki/sources/autoresearch-tutorial-david-ondrej]] — David Ondrej: beginner-friendly autoresearch walkthrough and three-file architecture (2026-03)
+- [[wiki/sources/guide-to-karpathy-autoresearch]] — DataCamp: Karpathy's AutoResearch for ML experimentation; three-file architecture and ratchet loop (2026-03)
 
 ### Claude Code Ecosystem
 - [[wiki/sources/building-claude-code-boris-cherny]] — Pragmatic Engineer: Boris Cherny on building Claude Code at Anthropic (2026-03)
+- [[wiki/sources/anthropic-claude-managed-agents]] — Joe Njenga: Claude Managed Agents removes harness work; fully hosted agent runtime (2026-04)
 - [[wiki/sources/claude-code-source-leaked-worth-learning]] — Analysis of leaked Claude Code source code (2026-04)
 - [[wiki/sources/100-hours-claude-code-vs-antigravity]] — Nate Herk: 100-hour Claude Code review vs. alternatives (2026-04)
+- [[wiki/sources/i-stopped-paying-claude-code]] — Rohan Mistry: 2-week OpenCode test; quality gap is 15–20%, you're paying for polish (2026-04)
 - [[wiki/sources/master-claude-code-skills]] — Nate Herk: mastering skills, CLAUDE.md, and advanced workflows (2026-04)
 - [[wiki/sources/claude-code-skills-got-better]] — How Claude Code skill.md files evolved (2026-04)
 - [[wiki/sources/eight-claude-skills-meta-skills]] — Ben AI: reusable meta skills for planning, prompting, checking, and decision support (2026-04)
@@ -184,6 +189,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 
 ### Agent Frameworks & Patterns
 - [[wiki/sources/comparing-6-python-ai-agent-frameworks]] — LangGraph vs. CrewAI vs. OpenAI Agents SDK vs. PydanticAI vs. AutoGen vs. Smolagents (2026-04)
+- [[wiki/sources/agents-are-autonomous-except-when-not]] — Reality check: most deployed agents are semi-autonomous; human-in-the-loop is the realistic default (2026-04)
 - [[wiki/sources/multi-agent-architecture-patterns]] — Deep dive on multi-agent patterns: sequential, parallel, hierarchical (2026-04)
 - [[wiki/sources/langchain-deep-agents]] — LangChain deep agent implementation patterns (2026-04)
 - [[wiki/sources/how-to-build-claude-agent-teams]] — Nate Herk: building agent teams with Claude Code (2026-04)
@@ -192,6 +198,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/claude-as-dungeon-master]] — Claude orchestrating complex multi-character/task scenarios (2026-04)
 - [[wiki/sources/building-ai-agent-scratch-pure-python]] — Building an AI agent from scratch in pure Python (2026-04)
 - [[wiki/sources/hermes-agent-vs-openclaw]] — Nous Research Hermes agent compared to OpenClaw (2026-04)
+- [[wiki/sources/paperclip-ai-agents-company]] — Nikhil: Paperclip open-source orchestration platform; agents as organization with roles, budgets, heartbeats (2026-04)
 
 ### OpenClaw / Local AI
 - [[wiki/sources/networkchuck-openclaw-right-now-review]] — NetworkChuck: OpenClaw setup and review (2026-04)
@@ -212,6 +219,10 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/step-3-5-flash-196b-open-source-model]] — StepFun Step-3.5-Flash 196B MoE model release (2026-04)
 - [[wiki/sources/best-llms-opencode-qwen-gemma-tested-locally]] — Best LLMs for OpenCode: Qwen and Gemma tested locally (2026-04)
 - [[wiki/sources/two-macs-80b-ai-cluster-exo]] — Manjunath Janardhan: two-Mac 80B cluster with Exo (2026-03)
+- [[wiki/sources/outperforming-claude-code-codex]] — Techniques for outperforming cloud agents with local inference; quantization and context tuning (2026-04)
+- [[wiki/sources/doubled-local-llm-speed]] — Amar Chetri: doubling local LLM speed without hardware upgrades; optimization techniques (2026-02)
+- [[wiki/sources/1-bit-llm-1gb]] — Chew Loong Nian: extreme 1-bit quantization compresses 8.2B params to 1.15 GB with surprising performance (2026-04)
+- [[wiki/sources/local-model-ollama-guide]] — Gemini conversation: Ollama + Qwen + Claude Code integration; LiteLLM proxy and local-first agentic CLI comparison (2026-04)
 
 ### Strategy & Industry Analysis (Nate B Jones)
 - [[wiki/sources/anthropic-openai-memory-context-portability]] — Anthropic vs. OpenAI memory architecture philosophies (2026-04)
@@ -220,6 +231,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/wall-street-285b-ai-agents-review]] — Wall Street's $285B SaaS sell-off was correct; agents are coming (2026-04)
 - [[wiki/sources/amazon-fired-engineers-ai-dark-code]] — Amazon engineering layoffs + dark code + spec-driven mandate (2026-04)
 - [[wiki/sources/ai-50x-faster-getting-2x-wrong-thing]] — Why you get 2x gains despite 50x AI speed: tool-call bottleneck (2026-04)
+- [[wiki/sources/ai-21-5-trillion-into-dust]] — Mandar Karhade: wealth transfer mechanism; labor share 53.8% (lowest ever), top 1% owns 50% stock (2026-04)
 - [[wiki/sources/karpathy-llm-wiki-pattern-rag]] — LLM wiki pattern killing the need for RAG (2026-04)
 - [[wiki/sources/world-model-interpretive-boundary]] — Nate B Jones: world-model architectures fail when they hide judgment inside retrieval (2026-04)
 - [[wiki/sources/mo-gawdat-next-ai-phase-positioning]] — Mo Gawdat on agility, ethics, and labor disruption ahead of the next AI phase (2026-03)
@@ -227,6 +239,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ### Engineering Practice
 - [[wiki/sources/from-ides-to-ai-agents-steve-yegge]] — Steve Yegge: IDEs are dying, agents are replacing them (2026-04)
 - [[wiki/sources/dhh-new-way-writing-code-agent-first]] — DHH on the new way of writing code with AI agents (2026-04)
+- [[wiki/sources/cli-vs-mcp-agents]] — Phil: Peter Steinberger's MCP critique; CLIs beat MCP for agent tool design; context efficiency wins (2026-02)
 - [[wiki/sources/product-minded-engineers-ai-native]] — Pragmatic Engineer: product-minded engineering in the AI era (2026-04)
 - [[wiki/sources/coder-to-architect-developer-role-2026]] — Broad career framing on the shift from implementation to architecture and AI oversight (2025-11)
 - [[wiki/sources/evolving-software-architecture-cloud-era]] — Cloud-era architecture tradeoffs: modular monoliths, distribution, and resilience (2025-10)
@@ -235,6 +248,7 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/sources/stop-vibe-coding-4-file-system]] — Stop vibe coding: 4-file system (spec/plan/changelog/.cursorrules) (2026-04)
 - [[wiki/sources/polymarket-bot-438k-ai-arbitrage]] — Nate Herk: $438K Polymarket bot built with AI (2026-04)
 - [[wiki/sources/chip-huyen-building-when-nothing-left-to-build]] — Chip Huyen at AI Summit: evaluation and production ML (2026-04)
+- [[wiki/sources/five-agent-skills-mega-prompt]] — Technical analysis: mega-prompts are anti-patterns; agents need modular skills over monolithic prompts (2026-04)
 
 ### Self-Evolving Systems
 - [[wiki/sources/minimax-m2-7-self-evolving-agent-model]] — Developers Digest on MiniMax M2.7's self-evolving harness and cheap agentic usage (2026-03)

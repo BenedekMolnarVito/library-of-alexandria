@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/Block Laid Off Half Its Company for AI. AI Can't Do the Job.md",
+                "file": "raw/Agents are autonomous except when they are not which is most of the time.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Block Laid Off Half Its Company for AI. AI Can't Do the Job"
+              "title": "Agents are autonomous except when they are not which is most of the time"
             }
           }
         ]
@@ -182,8 +182,20 @@
   },
   "active": "cfda11959bc28cc1",
   "lastOpenFiles": [
-    "raw/How to Never Hit Your Claude Session Limit Again.md",
+    "raw/AI Is Turning $21.5 Trillion Into Dust.md",
+    "raw/Agents are autonomous except when they are not which is most of the time.md",
+    "raw/Outperforming Claude Code and Codex for Local LLM Workflows.md",
+    "raw/I Stopped Paying for Claude Code… And Nothing Broke.md",
+    "raw/Why CLIs Beat MCP for AI Agents — And How to Build Your Own CLI Army. The Guy With 190K GitHub Stars Just Proved Me Right.md",
+    "raw/How I Doubled My Local LLM’s Speed (Without Buying New Hardware).md",
+    "raw/Anthropic Launches Claude Managed Agents (That Make Agentic AI Workflows Real).md",
+    "raw/I Compared 6 Python AI Agent Frameworks So You Don’t Have To LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK vs Smolagents vs Google ADK.md",
+    "raw/I Compared 6 Python AI Agent Frameworks So You Don’t Have To LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK vs Smolagents vs Google ADK 1.md",
+    "raw/5 Skills Every AI Agent Needs (And Why Your Mega-Prompt Is Holding You Back).md",
+    "raw/Andrej Karpathy’s Fix for AI Coding Agents Gone Wrong A Single Markdown File.md",
+    "raw/I Tested the 1-Bit LLM That Fits in 1 GB — It Shouldn’t Be This Good.md",
     "raw/Block Laid Off Half Its Company for AI. AI Can't Do the Job.md",
+    "raw/How to Never Hit Your Claude Session Limit Again.md",
     "raw/Minimax M2.7 Self-Evolving Agent Model.md",
     "raw/This Agent Self-Evolves (Fully explained).md",
     "raw/Claude Code + Karpathy's NEW Self-Evolving System = 10x Code Generation.md",
@@ -196,18 +208,6 @@
     "raw/Evolving Software Architecture for the Cloud Era.md",
     "raw/From Coder to Architect The Evolving Software Developer Role in 2026.md",
     "raw/Self — Evolving Software When Code Begins to Improve Itself.md",
-    "raw/The Evolving Software Stack Blending Software 1.0, 2.0, and 3.0.md",
-    "wiki/overview.md",
-    "wiki/log.md",
-    "wiki/index.md",
-    "wiki/sources/karpathy-10x-claude-code-llm-wiki.md",
-    "raw/Andrej Karpathy Just 10x’d Everyone’s Claude Code.md",
-    "wiki/sources/karpathy-autoresearch-universal-skill.md",
-    "raw/A Guide to Andrej Karpathy’s AutoResearch Automating ML with AI Agents.md",
-    "wiki/sources/100-hours-claude-code-vs-antigravity.md",
-    "wiki/sources/how-to-build-claude-agent-teams.md",
-    "wiki/sources/300-dollars-auto-research-karpathy-loop.md",
-    "raw/From Hollywood to GitHub Inside Milla Jovovich’s Radical AI Memory Revolution.md",
     "Névtelen.base",
     "Névtelen.canvas",
     "wiki/sources",

@@ -182,3 +182,36 @@ Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/analyses/raw-dedup-candidate
 Added missing high-signal entity pages that were showing up as unresolved wikilinks across older AI pages: [[wiki/entities/amazon]], [[wiki/entities/amazon-kira]], [[wiki/entities/apple]], [[wiki/entities/polymarket]], and [[wiki/entities/tiago-forte]].
 
 Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/entities/amazon]], [[wiki/entities/amazon-kira]], [[wiki/entities/apple]], [[wiki/entities/polymarket]], [[wiki/entities/tiago-forte]]
+
+---
+
+## [2026-04-27] ingest | Batch Ingest — 14 New Raw Sources
+
+Processed 14 net-new raw sources spanning agent architecture, cost/capability analysis, economic impact, local inference optimization, and integration patterns.
+
+**Source pages created (14)**:
+- [[wiki/sources/five-agent-skills-mega-prompt]] — Mega-prompts are anti-patterns; agents need modular skills
+- [[wiki/sources/agents-are-autonomous-except-when-not]] — Reality check: most agents are semi-autonomous
+- [[wiki/sources/ai-21-5-trillion-into-dust]] — Wealth transfer mechanism; labor share 53.8%, top 1% owns 50% of stock
+- [[wiki/sources/anthropic-claude-managed-agents]] — Managed Agents: hosted harness eliminates infrastructure work
+- [[wiki/sources/claude-code-karpathy-self-evolving-10x]] — LLM wiki + Claude Code integration for 10x code generation
+- [[wiki/sources/i-stopped-paying-claude-code]] — 2-week OpenCode test: quality gap 15–20%, you're paying for comfort
+- [[wiki/sources/outperforming-claude-code-codex]] — Local inference techniques outperform cloud agents on latency/cost
+- [[wiki/sources/paperclip-ai-agents-company]] — Orchestration platform for multi-agent governance (roles, budgets, heartbeats)
+- [[wiki/sources/cli-vs-mcp-agents]] — Peter Steinberger: CLIs beat MCP; context efficiency wins over abstraction
+- [[wiki/sources/local-model-ollama-guide]] — Docker + LiteLLM + Ollama integration; local-first agentic CLI comparison
+- [[wiki/sources/guide-to-karpathy-autoresearch]] — AutoResearch ratchet loop for 100+ ML experiments per night
+- [[wiki/sources/doubled-local-llm-speed]] — Doubling local LLM speed through software optimization (quantization, context tuning)
+- [[wiki/sources/1-bit-llm-1gb]] — Extreme 1-bit quantization: 8.2B params → 1.15 GB with surprising performance
+- [[wiki/sources/karpathy-fix-agents-markdown]] — Single-markdown solution for sycophantic agents; readable guardrails over mega-prompts
+
+**Meta pages updated**: [[wiki/index]] (14 source entries added across 6 sections), [[wiki/log]]
+
+**Key themes**:
+- Shift from mega-prompts to modular skills
+- Economic reality check on AI deployment ROI and wealth concentration
+- Local inference reaching competitive parity with cloud on cost/latency
+- Agent orchestration moving from DIY harness to managed platforms
+- CLI simplicity preferred over abstraction layers for tool design
+
+Pages touched: [[wiki/index]], [[wiki/log]], and 14 new source pages
