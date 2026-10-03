@@ -62,6 +62,7 @@ The harness engineering (see [[harness-engineering]]) question is critical for o
 - [[wiki/concepts/agentic-loop]] — the execution cycle each agent runs
 - [[wiki/concepts/agentic-saas]] — multi-agent systems as product building blocks
 - [[wiki/concepts/tool-call-bottleneck]] — where orchestration systems lose time
+- [[wiki/concepts/agentic-arch-orchestration]] — hub-and-spoke orchestration per Claude Certification
 
 ## Key Entities
 

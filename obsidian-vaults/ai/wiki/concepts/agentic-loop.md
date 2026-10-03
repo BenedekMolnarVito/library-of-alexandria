@@ -63,6 +63,8 @@ Practical agentic loop design involves several recurring decisions:
 - [[wiki/concepts/multi-agent-orchestration]] — orchestrating multiple loops
 - [[wiki/concepts/context-window-management]] — managing context across many loop iterations
 - [[wiki/concepts/harness-engineering]] — the infrastructure that surrounds the loop
+- [[wiki/concepts/agentic-architecture-guide]] — Claude Certification guidance on loop control
+- [[wiki/concepts/agentic-arch-orchestration]] — `stop_reason`-driven termination done rigorously
 
 ## Sources
 

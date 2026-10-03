@@ -69,6 +69,7 @@ A practical context management checklist for agentic tasks:
 - [[wiki/concepts/autoresearch]] — implements sliding window for long optimization runs
 - [[wiki/concepts/agentic-loop]] — context grows with each loop iteration
 - [[wiki/concepts/tool-call-bottleneck]] — tool results add to context; managing this is critical
+- [[wiki/concepts/agentic-arch-context-reliability]] — context budgeting + fresh-session-with-summary per Claude Certification
 
 ## Key Entities
 

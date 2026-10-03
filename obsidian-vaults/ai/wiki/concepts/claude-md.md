@@ -69,6 +69,7 @@ The interplay with [[llm-wiki]] is important: this wiki's `AGENTS.md` file is it
 - [[wiki/concepts/llm-wiki]] — uses AGENTS.md as its foundational schema file
 - [[wiki/concepts/context-window-management]] — why shorter CLAUDE.md files are often better
 - [[wiki/concepts/dark-code]] — what happens without structural specification
+- [[wiki/concepts/agentic-arch-claude-code-config]] — the CLAUDE.md hierarchy per Claude Certification
 - [[wiki/concepts/vibe-coding]] — the anti-pattern CLAUDE.md is designed to prevent
 
 ## Key Entities

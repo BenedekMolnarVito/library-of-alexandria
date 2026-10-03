@@ -72,6 +72,8 @@ A mature agentic coding workflow for a production team:
 - [[wiki/concepts/vibe-coding]] — the anti-pattern
 - [[wiki/concepts/harness-engineering]] — the infrastructure context for agentic coding
 - [[wiki/concepts/local-ai-inference]] — local models for agentic coding at zero marginal cost
+- [[wiki/concepts/claude-code-mcp-setup]] — giving the Claude Code CLI external MCP tools
+- [[wiki/concepts/precommit-eof-fixer-gotcha]] — a commit-loop gotcha agentic coders hit
 
 ## Key Entities
 

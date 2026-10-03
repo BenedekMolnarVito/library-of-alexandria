@@ -215,3 +215,15 @@ Processed 14 net-new raw sources spanning agent architecture, cost/capability an
 - CLI simplicity preferred over abstraction layers for tool design
 
 Pages touched: [[wiki/index]], [[wiki/log]], and 14 new source pages
+
+## [2026-10-03] ingest | Transferred general knowledge from CFAAI LLM wiki
+Imported the general (non-SAP) knowledge from the sibling CFAAI LLM wiki (/Users/C5418860/VSCodeRepos/cfaai-llm-wiki/vault). All SAP/FAA/DPG/Datasphere/Kyma/Hyperspace/CFA-team pages were excluded; only vendor-neutral material was transferred, with SAP cross-refs and example URLs stripped/genericized.
+
+**Transferred (10 concept pages + 3 source pages):**
+- Claude Certification "Agentic System Architecture" cluster (6 concepts): agentic-architecture-guide (hub) + agentic-arch-{orchestration, tools-mcp, claude-code-config, prompt-engineering, context-reliability}. Cites public source claudecertificationguide.com.
+- Developer tooling (4 concepts): langchain-agent-patterns, langchain-mcp-client, claude-code-mcp-setup, precommit-eof-fixer-gotcha.
+- Source summaries: claude-certification-architect-guide (public URL), langchain-mcp-sample-patterns + dev-tooling-gotchas (provenance: inferred, no public URL — SAP-internal origin noted).
+
+**Cross-refs added (inbound links so no orphans):** agentic-loop, multi-agent-orchestration, claude-md, agentic-coding, context-window-management.
+
+Pages touched: [[wiki/index]], [[wiki/log]], 13 new pages, 5 existing pages cross-linked.

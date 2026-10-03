@@ -7,7 +7,7 @@ tags:
   - navigation
   - ai
 created: 2026-04-18
-updated: 2026-04-21
+updated: 2026-10-03
 sources:
   - "[[wiki/overview]]"
 ---
@@ -156,6 +156,20 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 - [[wiki/concepts/local-first-ai-memory]] — User-owned, on-device memory infrastructure pattern
 - [[wiki/concepts/graph-percolation-threshold]] — Connectivity tipping point for graph memory usefulness
 
+### Agentic System Architecture (Claude Certification)
+- [[wiki/concepts/agentic-architecture-guide]] — Hub: vendor-neutral Claude agentic-design principles (5 domains, 257-question drill set)
+- [[wiki/concepts/agentic-arch-orchestration]] — Domain 1: loops (stop_reason), orchestration, subagents, hooks, handoff
+- [[wiki/concepts/agentic-arch-tools-mcp]] — Domain 2: tool description design, structured errors, MCP integration, built-in tools
+- [[wiki/concepts/agentic-arch-claude-code-config]] — Domain 3: CLAUDE.md hierarchy, skills, plan mode, CI/CD
+- [[wiki/concepts/agentic-arch-prompt-engineering]] — Domain 4: system prompts, few-shot, structured output, retry
+- [[wiki/concepts/agentic-arch-context-reliability]] — Domain 5: context budgeting, escalation, provenance, calibration
+
+### Developer Tooling & Integration
+- [[wiki/concepts/langchain-agent-patterns]] — Simple / memory / orchestrator LangChain agent patterns
+- [[wiki/concepts/langchain-mcp-client]] — Connect a LangChain agent to an MCP server (stdio + HTTP)
+- [[wiki/concepts/claude-code-mcp-setup]] — Register an HTTP MCP server with the Claude Code CLI
+- [[wiki/concepts/precommit-eof-fixer-gotcha]] — pre-commit end-of-file-fixer staged/working-tree divergence fix
+
 ## Sources
 
 ### Karpathy / LLM Wiki Cluster
@@ -283,6 +297,11 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ### Miscellaneous
 - [[wiki/sources/website-flipping-side-hustle]] — Gigi Creates: website flipping side hustle ($30K/year, no-code) (2026-04)
 - [[wiki/sources/paperclip-ai-governance-platform]] — Paperclip platform for AI governance and automation (2026-04)
+
+### Transferred from CFAAI wiki (general knowledge)
+- [[wiki/sources/claude-certification-architect-guide]] — Claude Certification Architect track: 5-domain agentic-design study guide + 257-question drill set (2026-09)
+- [[wiki/sources/langchain-mcp-sample-patterns]] — Provenance stub: general LangChain/MCP sample patterns (inferred, no public URL)
+- [[wiki/sources/dev-tooling-gotchas]] — Provenance stub: general developer-tooling gotchas (inferred, no public URL)
 
 ## Analyses
 
