@@ -227,3 +227,17 @@ Imported the general (non-SAP) knowledge from the sibling CFAAI LLM wiki (/Users
 **Cross-refs added (inbound links so no orphans):** agentic-loop, multi-agent-orchestration, claude-md, agentic-coding, context-window-management.
 
 Pages touched: [[wiki/index]], [[wiki/log]], 13 new pages, 5 existing pages cross-linked.
+
+## [2026-10-12] ingest | Migrated remaining general knowledge from CFAAI LLM wiki
+Second pass migration from cfaai-llm-wiki. Reviewed all 45 wiki pages; 33 SAP/internal-specific excluded, 5 already present, 5 domain pages confirmed already present and superior. Created 2 new generalized concept pages.
+
+**New pages created:**
+- [[wiki/concepts/langgraph-react-pattern]] — Explicit StateGraph + ToolNode + tools_condition ReAct loop; stripped SAP/FAA-specific references, generalized to universal LangGraph pattern.
+- [[wiki/concepts/bruno-oauth-testing]] — OAuth2 client credentials in Bruno; stripped Kyma/Vault/SAP-specific paths, generalized to any OAuth2-protected API.
+
+**Confirmed already present (no action needed):**
+- agentic-arch-orchestration, agentic-arch-tools-mcp, agentic-arch-claude-code-config, agentic-arch-prompt-engineering, agentic-arch-context-reliability (all superior in Alexandria).
+
+**Excluded (SAP-specific, 33 pages):** a2a-protocol, agent-evaluation, ai-factory-golden-path, aif-evaluation-framework, aif-guardrails, ariba-catalog-mcp-server, cfa-ai-assembly, cfa-ai-incubation-overview, cfa-ai-repos, cfaai-670-opentelemetry-adoption-observability, cloud-foundry-local-dev, cpit-agent-platform, cpit-big-data-ml-foundation, data-product-mcp-server, datasphere-data-access-controls, faa-mcp-transparent-proxy-connection, faa-secrets-and-tracing-gotchas, fin-analyst-agent, gen-ai-hub-prompt-registry, generative-ai-hub-sdk, hana-local-vpn-whitelist-gotcha, hyperspace-cicd, hyperspace-llm-proxy, kyma-agent-dpg-setup, odata-pia-client, odata-principal-propagation, pia-principal-propagation, sap-ai-tools, sap-aicore, sap-all-in-on-ai, sap-anonymization, sap-it-cloud-platform, about-this-wiki.
+
+Pages touched: [[wiki/index]], [[wiki/log]], [[wiki/concepts/langgraph-react-pattern]], [[wiki/concepts/bruno-oauth-testing]]

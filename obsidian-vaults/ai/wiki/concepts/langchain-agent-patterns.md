@@ -44,6 +44,7 @@ Wraps two agents as `@tool` functions, then gives those tools to a higher-level 
 ## Related Concepts
 
 - [[wiki/concepts/langchain-mcp-client]] — give a LangChain agent MCP tools
+- [[wiki/concepts/langgraph-react-pattern]] — explicit StateGraph + ToolNode + tools_condition; the recommended production ReAct loop
 - [[wiki/concepts/multi-agent-orchestration]] — the broader orchestration taxonomy
 - [[wiki/concepts/advisor-executor-pattern]] — the generator+validator loop in Pattern 3
 - [[wiki/concepts/agent-memory]] — checkpointer-backed memory in Pattern 2

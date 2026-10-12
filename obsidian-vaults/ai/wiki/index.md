@@ -7,7 +7,7 @@ tags:
   - navigation
   - ai
 created: 2026-04-18
-updated: 2026-10-03
+updated: 2026-10-12
 sources:
   - "[[wiki/overview]]"
 ---
@@ -167,8 +167,10 @@ A catalog of all pages in the AI knowledge wiki. Updated on every ingest.
 ### Developer Tooling & Integration
 - [[wiki/concepts/langchain-agent-patterns]] — Simple / memory / orchestrator LangChain agent patterns
 - [[wiki/concepts/langchain-mcp-client]] — Connect a LangChain agent to an MCP server (stdio + HTTP)
+- [[wiki/concepts/langgraph-react-pattern]] — Explicit StateGraph + ToolNode + tools_condition ReAct loop; preferred over deprecated create_react_agent
 - [[wiki/concepts/claude-code-mcp-setup]] — Register an HTTP MCP server with the Claude Code CLI
 - [[wiki/concepts/precommit-eof-fixer-gotcha]] — pre-commit end-of-file-fixer staged/working-tree divergence fix
+- [[wiki/concepts/bruno-oauth-testing]] — Getting a valid Bearer token in Bruno; the silent-200 gotcha and client credentials setup
 
 ## Sources
 

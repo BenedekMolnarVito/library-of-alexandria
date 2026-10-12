@@ -45,5 +45,5 @@ LangGraph occupies the production multi-agent framework niche — the tool that 
 ## Connections
 
 - **Related entities**: [[wiki/entities/langchain]], [[wiki/entities/anthropic]], [[wiki/entities/openai]], [[wiki/entities/mcp]], [[wiki/entities/claude-code]]
-- **Key concepts**: [[wiki/concepts/multi-agent-architecture]], [[wiki/concepts/agent-orchestration]], [[wiki/concepts/stateful-agents]], [[wiki/concepts/human-in-the-loop]]
+- **Key concepts**: [[wiki/concepts/langgraph-react-pattern]], [[wiki/concepts/multi-agent-architecture]], [[wiki/concepts/agent-orchestration]], [[wiki/concepts/stateful-agents]], [[wiki/concepts/human-in-the-loop]]
 - **Sources**: [[wiki/sources/langchain-deep-agents]], [[wiki/sources/comparing-6-python-ai-agent-frameworks]], [[wiki/sources/multi-agent-architecture-patterns]]
